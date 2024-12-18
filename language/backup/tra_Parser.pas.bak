@@ -79,8 +79,8 @@ MSG_RAM_USED   := trans('RAM Used   = '   , 'RAM usada  =', '',
 MSG_FLS_USED   := trans('Flash Used = '   , 'Flash usada=', '',
                         'Flash verwendet =','Flash використано = ','Flash использовано = ', 'FLASH utilisée =', '使用 Flash = ');
 ER_ARR_SIZ_BIG := trans('Array size to big.' , 'Tamaño de arreglo muy grande', '',
-                        ''                   ,'Розмір масиву завеликий.','Размер массива слишком велик.', 'Tableau trop grand.', '配列のサイズが大きすぎます');
+                        ''                   ,'Розмір масиву завеликий.','Размер массива слишком велик.', 'Tableau trop grand.');
 ER_INV_ARR_SIZ := trans('Invalid array size.', 'Tamaño de arreglo inválido', '',
-                        ''                   , 'Помилка в розмірі масиву.','Ошибка размера массива.', 'Taille de tableau invalide.', '無効な配列のサイズです');
+                        ''                   , 'Помилка в розмірі масиву.','Ошибка размера массива.', 'Taille de tableau invalide.');
 
 

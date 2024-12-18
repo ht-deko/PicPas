@@ -9,4 +9,4 @@ MSG_UNSUPPORTED := Trans('Unsupported','No soportado', '',
                         'Non supporté', '未対応です');
 MSG_CANNOT_COMPL:= Trans('Cannot Compile: "%s"','No se puede compilar: %s', '',
                         ''          , '', '',
-                        'Non compilable: "%s"', 'コンパイルできません: "%s"');
+                        'Non compilable: "%s"');

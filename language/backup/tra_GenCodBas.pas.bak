@@ -15,7 +15,7 @@ MSG_VER_CMP_EXP:= Trans('Very complex expression. To simplify.','Expresión muy 
                         'Expression trop complexe. À simplifier.', '複雑すぎる式です。単純化してください');
 MSG_STACK_OVERF:= Trans('Stack Overflow', 'Desborde de pila.' , '',
                         ''          , '', '',
-                        'Débordement de pile.', 'スタックオーバーフロー');
+                        'Débordement de pile.');
 MSG_NOT_IMPLEM := Trans('Not implemented.', 'No implementado' , '',
                         ''          , '', '',
                         'Non implémenté.', '未実装です');

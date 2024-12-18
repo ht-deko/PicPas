@@ -7,8 +7,7 @@ chkAutoindent.Caption:= trans('Autoindent'       , 'Auto-indentado'             
                               'Autom. Einrückung', '','', 'Indentation automatique', '自動インデント');
 chkHighCurLin.Caption := trans('Highlight current line', 'Marcar línea actual'         ,'',
                               'Markiere aktuelle Zeile' , 'Підсвітка поточного рядка','Подсветка текущей строки', 'Surbrillance ligne active', '現在行のハイライト色');
-Label1.Caption        := trans('Back color:'      , 'Color de fondo:'             ,'',
-                               'Hintergrundfarbe:', 'Колір фону','Цвет фона', 'Fond', '背景色:');
+
 chkHighCurWord.Caption:= trans('Highlight current word ', 'Resaltar palabra bajo cursor','',
                                'Aktuelles Wort markieren', 'Підсвітка поточного слова','Подсветка текущего слова', 'Surbrillance mot actif', '現在ワードのハイライト色');
 label10.Caption       := trans('Back color:'             , 'Color de fondo:'             ,'',

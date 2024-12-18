@@ -149,7 +149,6 @@ grpOptimLev.Items[0]   := Trans('Fool'                   , 'Tonto'              
                                 'Dumm','Дурень','Дурак', 'Basique', 'おバカ');
 grpOptimLev.Items[1]   := Trans('Smart'                  , 'Inteligente'              , '',
                                 'Schlau','Розумний','Умный', 'Avancé', '賢い！');
-GroupBox1.Caption      := Trans('Optimize Bank Selection', '', '', '', '', '', '', 'バンク切り替えの最適化');
 chkOptBnkAftIF.Caption := Trans('After IF structure'    , 'Después de instrucciones IF.', '',
                                'Nach IF-Struktur','Після структури IF','После структуры IF', 'Après le bloc IF', 'IF 構文の後');
 chkOptBnkBefPro.Caption:= Trans('Before Procedures'     , 'Antes de procedimientos.', '',
@@ -158,7 +157,6 @@ chkOptBnkAftPro.Caption:= Trans('After Procedures'      , 'Después de procedimi
                                 'Nach den Prozeduren','Після адреси','После адреса', 'Après les procédures', '手続きの後');
 chkReuProcVar.Caption  := Trans('Reuse Procedures Variables', 'Reutilizar variables de proced.', '',
                                 '','Повторно використовувати змінні процедур','Повторно использовать переменные процедур', 'Ré-utiliser les variables de procédure', '手続き変数の再利用');
-chkOptRetProc.Caption  := Trans('Optimize RETURN in procedures', '', '', '','','', '', '手続き内の RETURN の最適化');
 ////////////////////////////////////////////////////////////////////////////
 //////////////////////////// External Tool ////////////////////////////
 ////////////////////////////////////////////////////////////////////////////

@@ -213,7 +213,7 @@
                          '"%s" non trouvé', '"%s" が見つかりません');
  MSG_N_REPLAC   := Trans('%d words replaced', 'Se reemplazaron %d ocurrencias.', '',
                          '','%d слів замінено','%d слов заменено',
-                         '%d mots remplacés', '%d 件置換しました');
+                         '%d mots remplacés', '%d 語置換しました);
  MSG_REPTHIS    := Trans('Replace this?'    , '¿Reemplazar esta ocurrencia?'   , '',
                          '','Замінити це?','Заменить это?',
                          'Remplacer ceci?', '置換しますか？');

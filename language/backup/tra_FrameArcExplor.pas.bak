@@ -44,7 +44,7 @@
                            '&Ouvrir', '開く(&O)');
   mnFilChanName.Caption      := Trans('Cha&nge Name'            , 'Ca&mbiar Nombre', '',
                            ''              , ''            , '',
-                           '&Renommer', '名前の変更(&N)');
+                           '&Renommer', '名前の変更(&N)'));
   mnFilCreCopFrom.Caption  := Trans('Create Co&py from'      , 'Crear &Copia de', '',
                            ''              , ''            , '',
                            '', '作成コピー元(&P)');

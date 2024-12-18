@@ -1,6 +1,6 @@
 Label1.Caption    := Trans('Register Watcher'    , 'Inspector de Registros'   , '',
                            ''                    , '', '',
-                           'Observateur de Registres', 'レジスタ監視');
+                           'Observateur de Registres', 'レジスタ監視の追加');
 mnClearAll.Caption:= Trans('&Clear All'    , 'Eliminar &Todos'   , '',
                            ''                    , '', '',
                            'Tout effacer', 'すべてクリア(&C)');

@@ -19,9 +19,9 @@ begin
                                'Para referirse al archivo fuente, usar $(mainFile)', '',
                                ''                 , 'Для посилання на файл сирця, use ${mainFile}','Для ссылки на файл исходника, используй ${mainFile}', '$(mainFile) : insère le fichier source', 'ソースファイルを参照するには ${mainFile} を使用します。');
   chkWaitExit.Caption := trans('&Wait on exit'    , '&Esperar a terminar'   ,'Tukurinanta &Suyariy',
-                               ''                 , '', '', '&Attendre la fin de l''exécution' ,'終了を待つ(&W)');
+                               ''                 , '', '', '&Attendre la fin de l''exécution' ,'終了を待ちます(&W)');
   chkShowTBar.Caption := trans('&Show in Toolbar' , '&Mostrar en la barra de Herram.' ,'',
-                               ''                 , 'Показувати в тулбарі','Показывать в тулбаре', '&Montrer dans la barre d''outils', 'ツールバーに表示(&T)');
+                               ''                 , 'Показувати в тулбарі','Показывать в тулбаре', '&Montrer dans la barre d''outils', 'ツールバーに表示します(&T)');
   butTest.Caption     := trans('&Test'            , '&Probar'                ,'',
                                ''                 , 'Тест','Тест', '&Tester', 'テスト(&T)');
   butAdd.Caption      := trans('&Add'             , '&Agregar'                ,'',

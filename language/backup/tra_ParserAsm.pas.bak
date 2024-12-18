@@ -26,4 +26,4 @@ ER_EXPECT_BYTE := trans('Expected byte.'  , 'Se esperaba byte'               ,''
 ER_UNDEF_LABEL_:= trans('Undefined ASM Label: %s'   , 'Etiqueta ASM indefinida: %s'    ,'',
                         'Undefiniertes ASM Label:%s','Невизначена ASM мітка: %s','Неопределенная ASM метка: %s', 'Label ASM non défini: %s', '未定義の ASM ラベル: %s');
 WA_ADDR_TRUNC  := trans('Address truncated to fit instruction.', 'Dirección truncada, al tamaño de la instrucción', '',
-                        'Adresse abgeschnitten, um in Anweisung zu passen.','Адресу скорочено відповідно до вказівки.','Адрес усечен в соответствии с инструкцией.', 'Adresse tronquée pour insertion dans l''instruction.', '命令に合わせてアドレスが切り詰められました');
+                        'Adresse abgeschnitten, um in Anweisung zu passen.','Адресу скорочено відповідно до вказівки.','Адрес усечен в соответствии с инструкцией.', 'Adresse tronquée pour insertion dans l''instruction.');
