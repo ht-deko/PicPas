@@ -166,6 +166,7 @@ begin
   label2.Enabled := estado;
   label3.Enabled := estado;
   label5.Enabled := estado;
+  label6.Enabled := estado;
   txtName.Enabled := estado;
   txtPath.Enabled := estado;
   txtComLine.Enabled := estado;

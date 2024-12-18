@@ -1,7 +1,7 @@
 object Config: TConfig
-  Left = 319
+  Left = 269
   Height = 380
-  Top = 176
+  Top = 426
   Width = 571
   BorderStyle = bsDialog
   Caption = 'Configuración'
@@ -10,7 +10,7 @@ object Config: TConfig
   OnCreate = FormCreate
   OnShow = FormShow
   Position = poScreenCenter
-  LCLVersion = '1.8.0.6'
+  LCLVersion = '2.2.6.0'
   object Panel1: TPanel
     Left = 0
     Height = 50
@@ -58,10 +58,10 @@ object Config: TConfig
     Height = 330
     Top = 0
     Width = 403
-    ActivePage = tabEnviron
+    ActivePage = tabCodeExp
     Align = alClient
     ShowTabs = False
-    TabIndex = 0
+    TabIndex = 1
     TabOrder = 1
     object tabEnviron: TTabSheet
       Caption = 'Enviroment'
@@ -96,7 +96,7 @@ object Config: TConfig
         Left = 232
         Height = 15
         Top = 136
-        Width = 69
+        Width = 68
         Caption = 'Panels Color:'
         ParentColor = False
       end
@@ -122,7 +122,7 @@ object Config: TConfig
         Left = 216
         Height = 15
         Top = 16
-        Width = 59
+        Width = 57
         Caption = 'Set Theme:'
         ParentColor = False
       end
@@ -148,6 +148,7 @@ object Config: TConfig
           'ru - Russian'
           'fr - French'
           'qu - Quechua'
+          'ja - Japanese'
         )
         TabOrder = 0
         Text = 'ComboBox1'
@@ -204,7 +205,7 @@ object Config: TConfig
         Left = 216
         Height = 15
         Top = 64
-        Width = 74
+        Width = 71
         Caption = 'CreateTheme:'
         ParentColor = False
       end
@@ -212,7 +213,7 @@ object Config: TConfig
     object tabCodeExp: TTabSheet
       Caption = 'tabCodeExp'
       ClientHeight = 322
-      ClientWidth = 391
+      ClientWidth = 395
       object colCodExplText: TColorBox
         Left = 232
         Height = 22
@@ -226,7 +227,7 @@ object Config: TConfig
         Left = 232
         Height = 15
         Top = 16
-        Width = 57
+        Width = 55
         Caption = 'Text Color:'
         ParentColor = False
       end
@@ -273,7 +274,7 @@ object Config: TConfig
     object tabMessPan: TTabSheet
       Caption = 'tabMessPan'
       ClientHeight = 322
-      ClientWidth = 391
+      ClientWidth = 395
       object colMessPanSel: TColorBox
         Left = 8
         Height = 22
@@ -321,7 +322,7 @@ object Config: TConfig
         Left = 8
         Height = 15
         Top = 72
-        Width = 55
+        Width = 54
         Caption = 'Text color:'
         ParentColor = False
       end
@@ -346,7 +347,7 @@ object Config: TConfig
     object tabEditor: TTabSheet
       Caption = 'General'
       ClientHeight = 322
-      ClientWidth = 391
+      ClientWidth = 395
       object grpTabEdiState: TRadioGroup
         Left = 16
         Height = 97
@@ -399,14 +400,14 @@ object Config: TConfig
         Left = 211
         Height = 15
         Top = 24
-        Width = 47
+        Width = 44
         Caption = 'Tamaño:'
         ParentColor = False
       end
       object spFontSize: TSpinEdit
         Left = 297
         Height = 23
-        Top = 16
+        Top = 18
         Width = 50
         TabOrder = 1
       end
@@ -436,12 +437,12 @@ object Config: TConfig
     object tabEnsamb: TTabSheet
       Caption = 'Assembler'
       ClientHeight = 322
-      ClientWidth = 388
+      ClientWidth = 395
       object chkIncAddress: TCheckBox
         Left = 16
         Height = 19
         Top = 152
-        Width = 152
+        Width = 151
         Caption = 'Include &Memory Address'
         TabOrder = 0
       end
@@ -457,7 +458,7 @@ object Config: TConfig
         Left = 16
         Height = 19
         Top = 184
-        Width = 121
+        Width = 118
         Caption = 'Include &Comments'
         TabOrder = 2
       end
@@ -497,7 +498,7 @@ object Config: TConfig
         Left = 64
         Height = 19
         Top = 120
-        Width = 102
+        Width = 103
         Caption = 'Exclude unused'
         TabOrder = 5
       end
@@ -505,7 +506,7 @@ object Config: TConfig
         Left = 192
         Height = 19
         Top = 184
-        Width = 165
+        Width = 163
         Caption = 'Include &Detailed comments'
         TabOrder = 6
       end
@@ -513,7 +514,7 @@ object Config: TConfig
         Left = 192
         Height = 19
         Top = 152
-        Width = 142
+        Width = 141
         Caption = 'Include &Variable names'
         TabOrder = 7
       end
@@ -521,7 +522,7 @@ object Config: TConfig
     object tabCompiler: TTabSheet
       Caption = 'Compiler'
       ClientHeight = 322
-      ClientWidth = 391
+      ClientWidth = 395
       object grpOptimLev: TRadioGroup
         Left = 8
         Height = 120
@@ -599,7 +600,7 @@ object Config: TConfig
         Left = 16
         Height = 19
         Top = 248
-        Width = 190
+        Width = 188
         Caption = 'Optimize RETURN in procedures'
         TabOrder = 4
       end
@@ -633,42 +634,34 @@ object Config: TConfig
     end
   end
   object ImageList1: TImageList
-    left = 56
-    top = 208
+    Left = 56
+    Top = 208
     Bitmap = {
-      4C69010000001000000010000000000000000000000000000000000000000000
-      0000000000009F838780C9B9BBFFCEC1C3FF9A84869F00000000000000000000
-      00000000000000000000000000000000000000000000A4828710AA8B90CFA98D
-      91BF9E838620AB9699CFFFFFFFFFF5ECEDFFB0A1A2EF928586109286869F9A8F
-      8FCF8F86852000000000000000000000000000000000B09397EFF9F7F8FFF6F3
-      F3FFBBAAACFFD3C9CAFFF7F1F2FFE8D9DAFFD2C6C6FFB5ADADEFEAE8E8FFF8F7
-      F7FFA39E9DEF88848220000000000000000000000000AE9498DFF6F2F2FFD2BB
-      BEFFE3D5D7FFEBE6E6FFC6BCBCFFC1B6B5FFDCD5D4FFF9F7F7FFFCFAF9FFFDFA
-      F9FFAEABA8EF000000000000000000000000000000009D83868FEAE4E4FFD4C1
-      C3FFAF9FA0FFADA0A0FFC5BCBBFFCFC8C7FFC1BDBBFFB1AEABFFF1EEEBFFEFEB
-      E9FF86827E9F0000000000000000AC90948FB9A4A7EFB4A2A4FFF9F7F8FFBBAF
-      AFFFBDB0B1FFE1D8D7FFC9C3C2FFCECAC9FFFCF9F7FFE7E4E1FFB4B0ACFFF7F3
-      EFFFAAA6A2FFA19D98BF7F7A7380B8A2A5FFFEFCFCFFF5EEEFFFE5DCDCFFADA0
-      A0FFE1D8D7FFA09A99EF8B8785608B888560A29F9CEFFFFFFFFFC3C0BDFFEFEA
-      E3FFFBF7F2FFFCFAF7FFA49F97FFC3B2B4FFF8EEEFFFEAD8D9FFD1C3C4FFC6BB
-      BBFFD0CAC9FF8B878570000000000000000089847E60D2D0CEFFE0DFDDFFD7D0
-      C7FFF7F0E5FFF1E9DDFFAEA599FF9C838650A59193DFDACCCDFFD6CBCBFFCFC8
-      C7FFD5D1D0FF8B888570000000000000000087817960D2D0CCFFE0DEDBFFD5CD
-      C1FFD9D0C3FF9E9485EF7E7465800000000096858670D0CACAFFE9E3E3FFBCB7
-      B5FFFCF9F7FFA29F9CEF89847E60878179609E9992EFFFFFFFFFC1BCB5FFEAE0
-      D1FFC2B8A7FF7F7462700000000097848650BDB3B3FFFFFFFFFFFAF6F5FFC0BC
-      BAFFE7E4E2FFFFFFFFFFD2D0CEFFD2CFCCFFFFFFFFFFE8E6E3FFAFA697FFF6EB
-      D9FFF3E7D5FFAA9F8CFF7E70594096848660D7D1D2FFFFFCFBFFFDF8F7FFF5F2
-      F0FFB5B1ADFFC2C0BDFFE0DFDDFFE0DEDBFFC9C5BFFFAFA597FFEFE4D1FFF3E7
-      D2FFEFE2CAFFC3B49BFF7E6F556000000000A39899CFC7C1C1FFA19D9CEFD1CE
-      CBFFFCF8F4FFE4DFD8FFC6BFB6FFC5BDB1FFE1D7C9FFF5EAD8FFC9BCA7FFA496
-      7EFFB7A78DFF8E7E61DF0000000000000000928686208F86852000000000A4A1
-      9FFFFBF9F7FFF4EEE7FFE6DED4FFE5DCCFFFF2E8D7FFF0E4D1FF9C8E77FF0000
-      0000806F53407F6D4F200000000000000000000000000000000000000000A29F
-      9CFFF6F4F0FFE6E0D8FF888176CF91897DDFEFE9E0FFEADEC9FF998B72FF0000
-      000000000000000000000000000000000000000000000000000000000000807C
-      788095908ADF8C857DEF7E776D207D7364309F978AEF938670DF7D6E55800000
-      0000000000000000000000000000
+      4C7A010000001000000010000000EC0200000000000078DA8553D94E5A4118F6
+      117C041EA18FE01BD4A4F1A277B4692FADA69ADA361551E1B8A0E25611AB1E44
+      D4D605B08A4B812A52B1E0C2522968555010115B075138A8D8AF734834A931F1
+      4F2699C9CC37DFF2CFE4E4DC5D6C758DD83E6BC49AC58A2E09C3E6DC539AAA9A
+      DC6159B3F35363CB5C6F352318E9503A412BF9FB0FF47D6AD22A65725B1986ED
+      92CB9D72462AB88DD7B729C8399746EAF414C6E151FCB03BC09D2410DDD884C7
+      6683616C8CC4A251A4390EFDBD3DA45652F5DF1DDAF6CE402A9180C7F81521AF
+      0F4791086C26132C53066C79D7714E71998B735CD1A11DF9486EF3F75433F258
+      388C75EA57C7AA30A65261D16484F3FB122C6623C6B52338393E02393A045325
+      BAC963B4B95D3EAB1922936A0D78FD469D0E66FD3876FD3ED8AD0B5873D89139
+      E77010DEC5A47E14DC29C1F0A01A7D3D9D73156F4BC433EA01FCCD64903C26D8
+      DFDACAF2F258559792C86AA44259AD54A866BB099FA575DE0C120BE1924B502F
+      1C34AC02D6CF9348536CCCBF01B7F51B6C46235C9493628BAF35D64944428F6B
+      0DC1C0367CAE2570F17D9C1C6E433BA0447735933FD0D216D85C59C5CFE5E5AC
+      5FAFDB05CA7B83AFA97C43F12B08EEFC8277D5820D9715BDED52222A7D2EE6F7
+      3BA44CB1CBE1C0612804D3B421EB97D7CCF3F2D85E656B56BFC564402CE8C6C2
+      CC102A4A9F66EF5748987CF3C404BF8D8B5412F3A62F34ABBDEC9AD7EC71AE64
+      E7D14808BA410552471B383DF062986D80A8F8715E878411FADC1E207389AB34
+      8764220EC3F818166856BC5F5EB37D710EBA010548D84DB11E903D07AC931F20
+      2A2A10F21AFA3B95CE258B85F6A49BB8D79691499F211CF0C33637854533EDA5
+      CF8E64CC0FBB69089A0E11A6871AD1247A12B8CE87BE6BC1F59BD6F4B1B8A4FE
+      CF8E0F10D959A73D752211F5214EB9BB9BCAC09F11173DCAAB287C28B8EB1FD1
+      DC903A8B2312F4A3B6F295B3A5AE3C400E8388EDD8A194BDC47DFF50FCEEB5F8
+      7D737DA0415A4E44658582F292670F58453D69638A03E52F0AC4B7CFFF03CDFD
+      6AC6
     }
   end
 end

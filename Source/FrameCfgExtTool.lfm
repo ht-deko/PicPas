@@ -6,8 +6,8 @@ object fraCfgExtTool: TfraCfgExtTool
   ClientHeight = 315
   ClientWidth = 392
   TabOrder = 0
-  DesignLeft = 357
-  DesignTop = 247
+  DesignLeft = 41
+  DesignTop = 218
   object ListBox1: TListBox
     Left = 8
     Height = 64
@@ -111,7 +111,7 @@ object fraCfgExtTool: TfraCfgExtTool
     Left = 8
     Height = 15
     Top = 193
-    Width = 229
+    Width = 225
     Caption = 'To reference the source file, use $(mainFile)'
     ParentColor = False
     WordWrap = True
@@ -120,7 +120,7 @@ object fraCfgExtTool: TfraCfgExtTool
     Left = 208
     Height = 15
     Top = 74
-    Width = 35
+    Width = 34
     Caption = 'Name:'
     ParentColor = False
   end
@@ -149,7 +149,7 @@ object fraCfgExtTool: TfraCfgExtTool
     Left = 8
     Height = 15
     Top = 112
-    Width = 76
+    Width = 75
     Caption = 'Program path:'
     ParentColor = False
   end
@@ -157,7 +157,7 @@ object fraCfgExtTool: TfraCfgExtTool
     Left = 8
     Height = 15
     Top = 165
-    Width = 85
+    Width = 82
     Caption = 'Command Line:'
     ParentColor = False
   end
@@ -182,7 +182,7 @@ object fraCfgExtTool: TfraCfgExtTool
     Left = 8
     Height = 15
     Top = 8
-    Width = 32
+    Width = 30
     Caption = 'Tools:'
     ParentColor = False
   end
@@ -190,7 +190,7 @@ object fraCfgExtTool: TfraCfgExtTool
     Left = 8
     Height = 19
     Top = 248
-    Width = 84
+    Width = 85
     Caption = '&Wait On Exit'
     OnChange = chkWaitExitChange
     TabOrder = 7
@@ -199,7 +199,7 @@ object fraCfgExtTool: TfraCfgExtTool
     Left = 8
     Height = 19
     Top = 272
-    Width = 106
+    Width = 105
     Caption = '&Show in Toolbar'
     OnChange = chkShowTBarChange
     TabOrder = 8
@@ -208,7 +208,7 @@ object fraCfgExtTool: TfraCfgExtTool
     Left = 8
     Height = 15
     Top = 216
-    Width = 250
+    Width = 249
     Caption = 'To reference the output *.hex file, use $(hexFile)'
     ParentColor = False
     WordWrap = True

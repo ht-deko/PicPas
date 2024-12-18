@@ -2,15 +2,16 @@
 <CONFIG>
   <ProjectSession>
     <PathDelim Value="\"/>
-    <Version Value="11"/>
+    <Version Value="12"/>
     <BuildModes Active="Release"/>
-    <Units Count="58">
+    <Units Count="74">
       <Unit0>
         <Filename Value="PicPas.lpr"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="-1"/>
-        <CursorPos X="62" Y="13"/>
+        <EditorIndex Value="11"/>
+        <CursorPos X="50" Y="19"/>
         <UsageCount Value="219"/>
+        <Loaded Value="True"/>
       </Unit0>
       <Unit1>
         <Filename Value="FormPrincipal.pas"/>
@@ -18,7 +19,7 @@
         <ComponentName Value="frmPrincipal"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <CursorPos X="24" Y="22"/>
+        <CursorPos X="57" Y="14"/>
         <ExtraEditorCount Value="1"/>
         <ExtraEditor1>
           <EditorIndex Value="-1"/>
@@ -37,7 +38,7 @@
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="2"/>
         <TopLine Value="939"/>
-        <CursorPos X="32" Y="2294"/>
+        <CursorPos X="34" Y="954"/>
         <ExtraEditorCount Value="1"/>
         <ExtraEditor1>
           <EditorIndex Value="-1"/>
@@ -54,16 +55,17 @@
         <ComponentName Value="frmPICExplorer"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="-1"/>
-        <CursorPos X="17" Y="9"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="32" Y="10"/>
         <UsageCount Value="203"/>
+        <Loaded Value="True"/>
       </Unit3>
       <Unit4>
         <Filename Value="GenCod_PIC16.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="3"/>
+        <EditorIndex Value="4"/>
         <TopLine Value="2753"/>
-        <CursorPos X="19" Y="2770"/>
+        <CursorPos X="24" Y="2765"/>
         <ExtraEditorCount Value="1"/>
         <ExtraEditor1>
           <EditorIndex Value="-1"/>
@@ -79,7 +81,7 @@
       <Unit5>
         <Filename Value="GenCodBas_PIC16.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="4"/>
+        <EditorIndex Value="5"/>
         <TopLine Value="1685"/>
         <CursorPos X="19" Y="1696"/>
         <ExtraEditorCount Value="2"/>
@@ -99,7 +101,7 @@
       <Unit6>
         <Filename Value="Parser.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="6"/>
+        <EditorIndex Value="12"/>
         <TopLine Value="1473"/>
         <CursorPos X="32" Y="1495"/>
         <ExtraEditorCount Value="1"/>
@@ -120,28 +122,28 @@
         <ComponentName Value="fraSyntaxTree"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="171"/>
-        <CursorPos X="11" Y="228"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="2"/>
+        <CursorPos X="43" Y="19"/>
         <FoldState Value=" T3k00aS"/>
         <UsageCount Value="202"/>
+        <Loaded Value="True"/>
       </Unit7>
       <Unit8>
         <Filename Value="Globales.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="102"/>
-        <CursorPos X="4" Y="184"/>
+        <EditorIndex Value="30"/>
+        <CursorPos X="76" Y="46"/>
         <UsageCount Value="202"/>
+        <Loaded Value="True"/>
       </Unit8>
       <Unit9>
         <Filename Value="XpresElementsPIC.pas"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="7"/>
+        <EditorIndex Value="44"/>
         <TopLine Value="73"/>
-        <CursorPos Y="73"/>
-        <FoldState Value=" TL009222 T4D01 T5F[647i7GK3 T8i8221."/>
+        <CursorPos X="36" Y="92"/>
+        <FoldState Value=" TL009222 T4D01 T7i7GK3 PDicG T8i8221 PF32F"/>
         <ExtraEditorCount Value="1"/>
         <ExtraEditor1>
           <EditorIndex Value="-1"/>
@@ -160,11 +162,11 @@
         <ComponentName Value="Config"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="-1"/>
-        <WindowIndex Value="1"/>
-        <TopLine Value="130"/>
-        <CursorPos Y="155"/>
+        <EditorIndex Value="31"/>
+        <TopLine Value="221"/>
+        <CursorPos X="57" Y="225"/>
         <UsageCount Value="200"/>
+        <Loaded Value="True"/>
       </Unit10>
       <Unit11>
         <Filename Value="PicPasProject.pas"/>
@@ -180,11 +182,13 @@
         <ComponentName Value="fraEditView"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="1323"/>
-        <CursorPos X="31" Y="1349"/>
-        <FoldState Value=" T4405 T5lD051 TLJ21]9312]D7DC32 T8E416311]IMnI01231A]C3lR056 pibj8084 pjPiJ2J4]IckJ0B1]I2I2O5]HYkb0B[Q5jC0671212[44 THldO6](6m701a T0mLcEL]fZl3B4E]9XlZW1H]9bnBMCC11221J TDx444 TEx64]/F-H23q"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="32"/>
+        <TopLine Value="1316"/>
+        <CursorPos X="46" Y="1328"/>
+        <FoldState Value=" T4405 TLJ210513121 T7DC32 PYi8H T8E4163111 PckU2 TMnI01231A]g3lR056 pibj8084 pjPiJ2J4]IckJ0B1]I2I2O5]HYkb0B[Q5jC0671212[44 Pl2sU0 T6m701a PiD.b]F0mLcEL]lZl3B4E]9XlZW1H pibnBMCC11221J Pk6qXal"/>
         <UsageCount Value="200"/>
+        <Loaded Value="True"/>
       </Unit12>
       <Unit13>
         <Filename Value="FrameMessagesWin.pas"/>
@@ -192,11 +196,12 @@
         <ComponentName Value="fraMessagesWin"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="429"/>
-        <CursorPos X="9" Y="432"/>
+        <EditorIndex Value="33"/>
+        <TopLine Value="428"/>
+        <CursorPos X="34" Y="448"/>
         <FoldState Value=" T3rK2i8"/>
         <UsageCount Value="200"/>
+        <Loaded Value="True"/>
       </Unit13>
       <Unit14>
         <Filename Value="FormElemProperty.pas"/>
@@ -204,13 +209,14 @@
         <ComponentName Value="frmElemProperty"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="-1"/>
+        <EditorIndex Value="34"/>
         <TopLine Value="79"/>
         <CursorPos X="30" Y="93"/>
         <UsageCount Value="201"/>
         <Bookmarks Count="1">
           <Item0 X="37" Y="153" ID="3"/>
         </Bookmarks>
+        <Loaded Value="True"/>
       </Unit14>
       <Unit15>
         <Filename Value="FrameArcExplor.pas"/>
@@ -218,11 +224,12 @@
         <ComponentName Value="frmArcExplor"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="188"/>
-        <CursorPos X="20" Y="500"/>
-        <FoldState Value=" TL00b02121 T4f03 T5i208 T8iV2r TMnc[R43l20C417 T0l5S47 pj4kP8C3 piZHn2E3A T6lZ01815 TDmK2K21]vEmc224 TFoR6q THr7N91H"/>
+        <EditorIndex Value="35"/>
+        <TopLine Value="175"/>
+        <CursorPos X="65" Y="206"/>
+        <FoldState Value=" TL00b02121 T4f03 T8iV2r TMnc[K43l20C417 Pl8sF0 T0l5S47 pj4kP8C3 piZHn2E3A Pjen1D T6lZ01815 PXrQ0R"/>
         <UsageCount Value="200"/>
+        <Loaded Value="True"/>
       </Unit15>
       <Unit16>
         <Filename Value="FrameCfgSyntax.pas"/>
@@ -230,11 +237,11 @@
         <ComponentName Value="fraCfgSyntax"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="551"/>
-        <CursorPos X="5" Y="577"/>
-        <FoldState Value=" TL00601224 T7iWDF T8iX25311 T3k92P023351A21[I46lX[944]43 T0lcV20E1]E2[U4Mp421P"/>
+        <EditorIndex Value="36"/>
+        <CursorPos X="62" Y="17"/>
+        <FoldState Value=" TL h0060226242B3 PEtA0 T7iWDF T8iX252 T3k92P02335652111 PkJr4]e6lX[G44]4]yHpO]K1p903 T0lcV20E1]R2[o4Dp1Fl"/>
         <UsageCount Value="210"/>
+        <Loaded Value="True"/>
       </Unit16>
       <Unit17>
         <Filename Value="FrameCfgSynEdit.pas"/>
@@ -242,10 +249,11 @@
         <ComponentName Value="fraCfgSynEdit"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
-        <EditorIndex Value="-1"/>
-        <CursorPos X="28" Y="22"/>
-        <FoldState Value=" TL005 T8iS23 TMia01011 T3jc08]P0lNC2j"/>
+        <EditorIndex Value="39"/>
+        <CursorPos X="63" Y="19"/>
+        <FoldState Value=" TL005 TMj621 T3jc085 PLZ0 T0lNC2;"/>
         <UsageCount Value="200"/>
+        <Loaded Value="True"/>
       </Unit17>
       <Unit18>
         <Filename Value="CodeTools.pas"/>
@@ -277,11 +285,12 @@
         <ComponentName Value="fraCfgExtTool"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="83"/>
-        <CursorPos X="5" Y="114"/>
-        <FoldState Value=" T4303 TMif211 T7BG9 T8C27]L3iS0A11512[44 T6iT01014 T0lRY2,"/>
+        <EditorIndex Value="41"/>
+        <TopLine Value="118"/>
+        <CursorPos X="92" Y="136"/>
+        <FoldState Value=" T4303 TMif211 T7BG9 T8C273 PEi52 T3iS0A114221512 PjFlC0 T6iT01014 T0lSY23"/>
         <UsageCount Value="200"/>
+        <Loaded Value="True"/>
       </Unit21>
       <Unit22>
         <Filename Value="FormDebugger.pas"/>
@@ -289,10 +298,11 @@
         <ComponentName Value="frmDebugger"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="296"/>
-        <CursorPos X="24" Y="302"/>
+        <EditorIndex Value="8"/>
+        <TopLine Value="84"/>
+        <CursorPos X="19" Y="96"/>
         <UsageCount Value="202"/>
+        <Loaded Value="True"/>
       </Unit22>
       <Unit23>
         <Filename Value="FrameRamExplorer.pas"/>
@@ -300,10 +310,11 @@
         <ComponentName Value="fraRamExplorer"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
-        <EditorIndex Value="-1"/>
+        <EditorIndex Value="9"/>
         <TopLine Value="362"/>
-        <CursorPos X="26" Y="387"/>
+        <CursorPos X="35" Y="380"/>
         <UsageCount Value="200"/>
+        <Loaded Value="True"/>
       </Unit23>
       <Unit24>
         <Filename Value="FormRAMExplorer.pas"/>
@@ -311,10 +322,10 @@
         <ComponentName Value="frmRAMExplorer"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="32"/>
-        <CursorPos X="54" Y="38"/>
+        <EditorIndex Value="25"/>
+        <CursorPos X="62" Y="17"/>
         <UsageCount Value="200"/>
+        <Loaded Value="True"/>
       </Unit24>
       <Unit25>
         <Filename Value="FrameRomExplorer.pas"/>
@@ -322,11 +333,12 @@
         <ComponentName Value="fraRomExplorer"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="45"/>
-        <CursorPos X="16" Y="97"/>
-        <FoldState Value=" T4302 TMiO810H1 TL82102213 TCAE4 T8a2]C3i20e012 piYkV0N0[L46i603015 T0iDRO4372154z"/>
+        <EditorIndex Value="26"/>
+        <TopLine Value="44"/>
+        <CursorPos X="55" Y="103"/>
+        <FoldState Value=" T4302 TMiO810H1 TL82102213 TCAE4 T8a2]C3i20e012 piYkV0N0]LPDk20 T6i603015 PLmV]G0iDRO4372154 Pien6XC"/>
         <UsageCount Value="200"/>
+        <Loaded Value="True"/>
       </Unit25>
       <Unit26>
         <Filename Value="FramePicRegisters.pas"/>
@@ -334,10 +346,11 @@
         <ComponentName Value="fraPicRegisters"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
-        <EditorIndex Value="-1"/>
+        <EditorIndex Value="27"/>
         <TopLine Value="73"/>
-        <CursorPos X="39" Y="89"/>
+        <CursorPos X="35" Y="92"/>
         <UsageCount Value="201"/>
+        <Loaded Value="True"/>
       </Unit26>
       <Unit27>
         <Filename Value="FrameRegWatcher.pas"/>
@@ -345,11 +358,12 @@
         <ComponentName Value="fraRegWatcher"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
-        <EditorIndex Value="-1"/>
+        <EditorIndex Value="28"/>
         <TopLine Value="38"/>
-        <CursorPos X="15" Y="55"/>
-        <FoldState Value=" T3mD0G4212111G"/>
+        <CursorPos X="58" Y="49"/>
+        <FoldState Value=" T3mD0G4212111 Pi5l60R"/>
         <UsageCount Value="211"/>
+        <Loaded Value="True"/>
       </Unit27>
       <Unit28>
         <Filename Value="FramePICDiagram.pas"/>
@@ -357,11 +371,11 @@
         <ComponentName Value="fraPICDiagram"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
-        <EditorIndex Value="5"/>
-        <CursorPos X="19" Y="26"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="205"/>
+        <CursorPos X="28" Y="220"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit28>
       <Unit29>
         <Filename Value="GenCodBas_PIC10.pas"/>
@@ -375,12 +389,11 @@
       <Unit30>
         <Filename Value="GenCod_PIC10.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="-1"/>
         <WindowIndex Value="1"/>
         <TopLine Value="2614"/>
         <CursorPos X="23" Y="2635"/>
         <UsageCount Value="205"/>
-        <Loaded Value="True"/>
       </Unit30>
       <Unit31>
         <Filename Value="ParserAsm_PIC10.pas"/>
@@ -402,21 +415,21 @@
       <Unit33>
         <Filename Value="Compiler_PIC10.pas"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="-1"/>
         <WindowIndex Value="1"/>
         <TopLine Value="1590"/>
         <CursorPos X="29" Y="1601"/>
         <UsageCount Value="200"/>
-        <Loaded Value="True"/>
       </Unit33>
       <Unit34>
         <Filename Value="ParserDirec.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="776"/>
-        <CursorPos X="33" Y="1150"/>
-        <FoldState Value=" TL0010212111[64 T580m012 TMrD410W151E]N7DGD4 T8E267 pidk0243 T3lO08B plZmF0R4 pj4ja0C1]ZYj50D1]IYk708[R4ciU2V2]9Uk9]j1127 T0lQT19]LZjYZ7F]vXj9d3D]9ZjeB5P[$4k996H[94iI/2[R4aj9Z3B[a52MK[j5icP3C[R5NcIR[j4s2c34 T6nQ07b THoYD.2[Y4oKD{Z]QKqe03 p0/O02."/>
+        <EditorIndex Value="29"/>
+        <TopLine Value="1543"/>
+        <CursorPos X="3" Y="1560"/>
+        <FoldState Value=" TL0010212111[64 TMrD410W151E]E7DGD4 PjYiJL T8E267 pidk0243 PJO2 T3lO08B plZmF0R4 pj4ja0C1]eYj50D1]IYk708[R4ciU2V2]9Uk9]j1127 PlEwN0 T0lQT19]SZjYZ7F];Xj9d3D]9ZjeB5P]9Yk996H[94iI/2[R4aj9Z3B[a52MK[j5icP3C[R5NcIR[j4s2c34 PRiJD T6nQ07b Pi8!30 TKqe03 p0/O02a"/>
         <UsageCount Value="206"/>
+        <Loaded Value="True"/>
       </Unit34>
       <Unit35>
         <Filename Value="FramePicAsm.pas"/>
@@ -424,10 +437,11 @@
         <ComponentName Value="fraPicAsm"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
-        <EditorIndex Value="-1"/>
+        <EditorIndex Value="7"/>
         <TopLine Value="309"/>
-        <CursorPos X="44" Y="331"/>
+        <CursorPos X="25" Y="326"/>
         <UsageCount Value="207"/>
+        <Loaded Value="True"/>
       </Unit35>
       <Unit36>
         <Filename Value="GenCodBas_PIC17.pas"/>
@@ -461,12 +475,11 @@
       <Unit40>
         <Filename Value="Compiler_PIC17.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="-1"/>
         <WindowIndex Value="1"/>
         <TopLine Value="1120"/>
         <CursorPos X="26" Y="2354"/>
         <UsageCount Value="200"/>
-        <Loaded Value="True"/>
       </Unit40>
       <Unit41>
         <Filename Value="..\..\_Librerias\PicUtils-1.5\Pic10Utils.pas"/>
@@ -474,21 +487,21 @@
         <WindowIndex Value="1"/>
         <TopLine Value="1638"/>
         <CursorPos X="36" Y="1653"/>
-        <UsageCount Value="82"/>
+        <UsageCount Value="79"/>
       </Unit41>
       <Unit42>
         <Filename Value="..\..\_Librerias\PicUtils-1.5\PicCore.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="960"/>
         <CursorPos Y="982"/>
-        <UsageCount Value="38"/>
+        <UsageCount Value="35"/>
       </Unit42>
       <Unit43>
         <Filename Value="GenCod.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="701"/>
         <CursorPos X="32" Y="718"/>
-        <UsageCount Value="101"/>
+        <UsageCount Value="98"/>
       </Unit43>
       <Unit44>
         <Filename Value="..\..\_Librerias\ogEditGraf-2.4\ogDefObjGraf.pas"/>
@@ -496,7 +509,7 @@
         <TopLine Value="258"/>
         <CursorPos Y="260"/>
         <FoldState Value=" TL00R04132 T4V0]65Z03 T7k5DN1 T8i42223D T3n30w83429 T6n8016 T0nKIAA1JQ"/>
-        <UsageCount Value="29"/>
+        <UsageCount Value="26"/>
         <Bookmarks Count="1">
           <Item0 X="28" Y="586" ID="3"/>
         </Bookmarks>
@@ -507,7 +520,7 @@
         <TopLine Value="447"/>
         <CursorPos X="31" Y="534"/>
         <FoldState Value=" TL00C0121113 T4G02 T8i32C]I25 TMiY0206]X5231518[e4p0ua210D2C165A1]y]JsV010]ATKjF47]I5;d0{Z T3ke0Q4 pibjP0321322]Dfp50E7]9ajS0J5 pj5jW046]Icj809[R4Ylf063 T6l101S T0l5K4F[Y5et]?C[\4jWU832B[:50HA125]MXifbEL]9Zo0W59 TFyM461T"/>
-        <UsageCount Value="36"/>
+        <UsageCount Value="33"/>
       </Unit45>
       <Unit46>
         <Filename Value="..\..\_Librerias\PicUtils-1.5\Pic17Utils.pas"/>
@@ -522,29 +535,21 @@
           <TopLine Value="103"/>
           <CursorPos Y="109"/>
         </ExtraEditor1>
-        <UsageCount Value="5"/>
+        <UsageCount Value="2"/>
         <Bookmarks Count="2">
           <Item0 X="16" Y="143" ID="1"/>
           <Item1 X="21" Y="1326" ID="2"/>
         </Bookmarks>
       </Unit46>
       <Unit47>
-        <Filename Value="..\..\_Librerias\Xpres-1.3.2\XpresBas.pas"/>
-        <EditorIndex Value="-1"/>
-        <WindowIndex Value="1"/>
-        <TopLine Value="520"/>
-        <CursorPos Y="536"/>
-        <UsageCount Value="1"/>
-      </Unit47>
-      <Unit48>
         <Filename Value="..\..\_Librerias\PicUtils-1.6\Pic17Utils.pas"/>
         <EditorIndex Value="-1"/>
         <WindowIndex Value="1"/>
         <TopLine Value="806"/>
         <CursorPos X="46" Y="819"/>
-        <UsageCount Value="102"/>
-      </Unit48>
-      <Unit49>
+        <UsageCount Value="99"/>
+      </Unit47>
+      <Unit48>
         <Filename Value="..\..\_Librerias\PicUtils-1.6\PicCore.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="80"/>
@@ -555,139 +560,321 @@
           <TopLine Value="513"/>
           <CursorPos X="17" Y="515"/>
         </ExtraEditor1>
-        <UsageCount Value="98"/>
-      </Unit49>
-      <Unit50>
+        <UsageCount Value="95"/>
+      </Unit48>
+      <Unit49>
         <Filename Value="..\..\_Librerias\PicUtils-1.6\Pic16Utils.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="748"/>
         <CursorPos X="14" Y="763"/>
-        <UsageCount Value="105"/>
-      </Unit50>
-      <Unit51>
+        <UsageCount Value="102"/>
+      </Unit49>
+      <Unit50>
         <Filename Value="C:\lazarus\lcl\lcltype.pp"/>
         <UnitName Value="LCLType"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="449"/>
         <CursorPos X="10" Y="477"/>
-        <UsageCount Value="16"/>
-      </Unit51>
-      <Unit52>
+        <UsageCount Value="13"/>
+      </Unit50>
+      <Unit51>
         <Filename Value="C:\lazarus\fpc\3.0.4\source\rtl\win\wininc\struct.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="202"/>
         <CursorPos X="6" Y="218"/>
-        <UsageCount Value="16"/>
-      </Unit52>
-      <Unit53>
+        <UsageCount Value="13"/>
+      </Unit51>
+      <Unit52>
         <Filename Value="..\..\_Librerias\PicUtils-1.6\Pic10Utils.pas"/>
         <EditorIndex Value="-1"/>
         <WindowIndex Value="1"/>
         <TopLine Value="107"/>
         <CursorPos X="5" Y="125"/>
-        <UsageCount Value="102"/>
-      </Unit53>
-      <Unit54>
+        <UsageCount Value="99"/>
+      </Unit52>
+      <Unit53>
         <Filename Value="C:\lazarus\fpc\3.0.4\source\rtl\objpas\objpas.pp"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="17"/>
         <CursorPos X="8" Y="35"/>
-        <UsageCount Value="43"/>
-      </Unit54>
-      <Unit55>
+        <UsageCount Value="40"/>
+      </Unit53>
+      <Unit54>
         <Filename Value="C:\lazarus\fpc\3.0.4\source\rtl\inc\objpash.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="224"/>
         <CursorPos X="26" Y="240"/>
-        <UsageCount Value="5"/>
-      </Unit55>
-      <Unit56>
-        <Filename Value="C:\lazarus\lcl\include\treeview.inc"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="4363"/>
-        <CursorPos Y="4382"/>
         <UsageCount Value="2"/>
-      </Unit56>
-      <Unit57>
+      </Unit54>
+      <Unit55>
         <Filename Value="..\..\_libraries\SynFacilUtils-1.21\SynFacilCompletion.pas"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="1852"/>
         <CursorPos X="34" Y="1855"/>
-        <UsageCount Value="25"/>
+        <UsageCount Value="22"/>
+      </Unit55>
+      <Unit56>
+        <Filename Value="..\language\tra_FormConfig.pas"/>
+        <EditorIndex Value="13"/>
+        <TopLine Value="130"/>
+        <CursorPos X="107" Y="162"/>
+        <UsageCount Value="26"/>
+        <Loaded Value="True"/>
+      </Unit56>
+      <Unit57>
+        <Filename Value="..\language\tra_CfgSynEdit.pas"/>
+        <EditorIndex Value="38"/>
+        <CursorPos X="29" Y="2"/>
+        <UsageCount Value="26"/>
         <Loaded Value="True"/>
       </Unit57>
+      <Unit58>
+        <Filename Value="C:\lazarus\components\synedit\synedit.pp"/>
+        <UnitName Value="SynEdit"/>
+        <EditorIndex Value="42"/>
+        <TopLine Value="6699"/>
+        <CursorPos X="45" Y="6727"/>
+        <UsageCount Value="26"/>
+        <Loaded Value="True"/>
+      </Unit58>
+      <Unit59>
+        <Filename Value="C:\lazarus\components\synedit\synedittypes.pp"/>
+        <UnitName Value="SynEditTypes"/>
+        <EditorIndex Value="43"/>
+        <TopLine Value="22"/>
+        <CursorPos X="18" Y="38"/>
+        <UsageCount Value="26"/>
+        <Loaded Value="True"/>
+      </Unit59>
+      <Unit60>
+        <Filename Value="..\language\tra_CfgExtTool.pas"/>
+        <EditorIndex Value="40"/>
+        <CursorPos X="45" Y="9"/>
+        <UsageCount Value="26"/>
+        <Loaded Value="True"/>
+      </Unit60>
+      <Unit61>
+        <Filename Value="..\language\tra_ParserDirec.pas"/>
+        <EditorIndex Value="14"/>
+        <CursorPos X="53" Y="15"/>
+        <UsageCount Value="25"/>
+        <Loaded Value="True"/>
+      </Unit61>
+      <Unit62>
+        <Filename Value="..\language\tra_GenCodBas.pas"/>
+        <EditorIndex Value="15"/>
+        <CursorPos X="89" Y="2"/>
+        <UsageCount Value="25"/>
+        <Loaded Value="True"/>
+      </Unit62>
+      <Unit63>
+        <Filename Value="..\language\tra_GenCod.pas"/>
+        <EditorIndex Value="16"/>
+        <CursorPos X="97" Y="5"/>
+        <UsageCount Value="25"/>
+        <Loaded Value="True"/>
+      </Unit63>
+      <Unit64>
+        <Filename Value="..\language\tra_ParserAsm.pas"/>
+        <EditorIndex Value="17"/>
+        <CursorPos X="172" Y="10"/>
+        <UsageCount Value="25"/>
+        <Loaded Value="True"/>
+      </Unit64>
+      <Unit65>
+        <Filename Value="..\language\tra_Parser.pas"/>
+        <EditorIndex Value="18"/>
+        <CursorPos X="125" Y="2"/>
+        <UsageCount Value="25"/>
+        <Loaded Value="True"/>
+      </Unit65>
+      <Unit66>
+        <Filename Value="..\language\tra_FrameArcExplor.pas"/>
+        <EditorIndex Value="19"/>
+        <CursorPos X="107" Y="7"/>
+        <UsageCount Value="25"/>
+        <Loaded Value="True"/>
+      </Unit66>
+      <Unit67>
+        <Filename Value="..\language\tra_FrameSyntaxTree.pas"/>
+        <EditorIndex Value="20"/>
+        <CursorPos X="135" Y="9"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+      </Unit67>
+      <Unit68>
+        <Filename Value="..\language\tra_FrameEditView.pas"/>
+        <EditorIndex Value="21"/>
+        <CursorPos X="140" Y="5"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+      </Unit68>
+      <Unit69>
+        <Filename Value="..\language\tra_FrameMessagesWin.pas"/>
+        <EditorIndex Value="22"/>
+        <CursorPos X="87" Y="25"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+      </Unit69>
+      <Unit70>
+        <Filename Value="..\language\tra_RegWatcher.pas"/>
+        <EditorIndex Value="23"/>
+        <CursorPos X="69" Y="4"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+      </Unit70>
+      <Unit71>
+        <Filename Value="..\language\tra_FormPrincipal.pas"/>
+        <EditorIndex Value="24"/>
+        <TopLine Value="150"/>
+        <CursorPos X="63" Y="144"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+      </Unit71>
+      <Unit72>
+        <Filename Value="FormDebugger.lfm"/>
+        <EditorIndex Value="10"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit72>
+      <Unit73>
+        <Filename Value="..\language\tra_CfgSyntax.pas"/>
+        <EditorIndex Value="37"/>
+        <CursorPos X="32" Y="10"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit73>
     </Units>
-    <JumpHistory Count="14" HistoryIndex="13">
+    <JumpHistory Count="29" HistoryIndex="28">
       <Position1>
-        <Filename Value="Compiler_PIC16.pas"/>
-        <Caret Line="464" Column="32" TopLine="300"/>
+        <Filename Value="..\language\tra_FormPrincipal.pas"/>
+        <Caret Line="144" Column="68" TopLine="116"/>
       </Position1>
       <Position2>
-        <Filename Value="Compiler_PIC16.pas"/>
-        <Caret Line="2294" Column="32" TopLine="939"/>
+        <Filename Value="..\language\tra_FormPrincipal.pas"/>
+        <Caret Line="147" Column="85" TopLine="119"/>
       </Position2>
       <Position3>
-        <Filename Value="FormPrincipal.pas"/>
-        <Caret Line="17" Column="20"/>
+        <Filename Value="..\language\tra_CfgExtTool.pas"/>
+        <Caret Line="13" Column="120" TopLine="4"/>
       </Position3>
       <Position4>
         <Filename Value="FormPrincipal.pas"/>
-        <Caret Line="22" Column="24"/>
+        <Caret Line="487" Column="50" TopLine="472"/>
       </Position4>
       <Position5>
-        <Filename Value="..\..\_libraries\SynFacilUtils-1.21\SynFacilCompletion.pas"/>
-        <Caret Line="293" Column="51" TopLine="275"/>
+        <Filename Value="FramePicAsm.pas"/>
+        <Caret Line="319" Column="53" TopLine="310"/>
       </Position5>
       <Position6>
-        <Filename Value="..\..\_libraries\SynFacilUtils-1.21\SynFacilCompletion.pas"/>
-        <Caret Line="1853" Column="6" TopLine="1844"/>
+        <Filename Value="FormDebugger.lfm"/>
+        <Caret Line="2852" Column="39" TopLine="2781"/>
       </Position6>
       <Position7>
-        <Filename Value="..\..\_libraries\SynFacilUtils-1.21\SynFacilCompletion.pas"/>
-        <Caret Line="292" Column="60" TopLine="290"/>
+        <Filename Value="..\language\tra_FormConfig.pas"/>
+        <Caret Line="98" Column="39" TopLine="87"/>
       </Position7>
       <Position8>
-        <Filename Value="..\..\_libraries\SynFacilUtils-1.21\SynFacilCompletion.pas"/>
-        <Caret Line="293" Column="51" TopLine="275"/>
+        <Filename Value="FormConfig.pas"/>
+        <Caret Line="164" Column="46" TopLine="154"/>
       </Position8>
       <Position9>
-        <Filename Value="..\..\_libraries\SynFacilUtils-1.21\SynFacilCompletion.pas"/>
-        <Caret Line="1855" Column="34" TopLine="1852"/>
+        <Filename Value="..\language\tra_FormConfig.pas"/>
+        <Caret Line="144" Column="14" TopLine="130"/>
       </Position9>
       <Position10>
-        <Filename Value="GenCodBas_PIC16.pas"/>
-        <Caret Line="1696" Column="19" TopLine="1685"/>
+        <Filename Value="FormConfig.pas"/>
+        <Caret Line="48" Column="14" TopLine="22"/>
       </Position10>
       <Position11>
-        <Filename Value="Parser.pas"/>
-        <Caret Line="241" Column="13" TopLine="223"/>
+        <Filename Value="FrameCfgExtTool.pas"/>
+        <Caret Line="108" Column="25" TopLine="72"/>
       </Position11>
       <Position12>
-        <Filename Value="Parser.pas"/>
-        <Caret Line="1495" Column="32" TopLine="1473"/>
+        <Filename Value="FrameCfgExtTool.pas"/>
       </Position12>
       <Position13>
-        <Filename Value="XpresElementsPIC.pas"/>
-        <Caret Line="508" Column="15" TopLine="491"/>
+        <Filename Value="..\language\tra_CfgSynEdit.pas"/>
+        <Caret Line="10" Column="46"/>
       </Position13>
       <Position14>
-        <Filename Value="XpresElementsPIC.pas"/>
+        <Filename Value="FrameCfgSynEdit.pas"/>
+        <Caret Line="91" Column="13" TopLine="68"/>
       </Position14>
+      <Position15>
+        <Filename Value="FrameCfgSynEdit.pas"/>
+        <Caret Line="84" Column="37" TopLine="77"/>
+      </Position15>
+      <Position16>
+        <Filename Value="FrameCfgSynEdit.pas"/>
+      </Position16>
+      <Position17>
+        <Filename Value="FrameCfgSyntax.pas"/>
+        <Caret Line="570" Column="57" TopLine="500"/>
+      </Position17>
+      <Position18>
+        <Filename Value="FrameCfgSyntax.pas"/>
+        <Caret Line="121" Column="66" TopLine="104"/>
+      </Position18>
+      <Position19>
+        <Filename Value="FrameCfgSyntax.pas"/>
+        <Caret Line="128" Column="26" TopLine="104"/>
+      </Position19>
+      <Position20>
+        <Filename Value="FrameCfgSyntax.pas"/>
+        <Caret Line="123" Column="84" TopLine="111"/>
+      </Position20>
+      <Position21>
+        <Filename Value="FrameCfgSyntax.pas"/>
+        <Caret Line="128" Column="26" TopLine="111"/>
+      </Position21>
+      <Position22>
+        <Filename Value="FrameCfgSyntax.pas"/>
+        <Caret Line="309" Column="85" TopLine="294"/>
+      </Position22>
+      <Position23>
+        <Filename Value="FrameCfgSyntax.pas"/>
+        <Caret Line="347" Column="38" TopLine="294"/>
+      </Position23>
+      <Position24>
+        <Filename Value="FrameCfgSyntax.pas"/>
+        <Caret Line="128" Column="26" TopLine="109"/>
+      </Position24>
+      <Position25>
+        <Filename Value="..\language\tra_CfgSyntax.pas"/>
+        <Caret Line="8" Column="70"/>
+      </Position25>
+      <Position26>
+        <Filename Value="..\language\tra_CfgSynEdit.pas"/>
+        <Caret Line="2" Column="29"/>
+      </Position26>
+      <Position27>
+        <Filename Value="FrameCfgSynEdit.pas"/>
+        <Caret Line="87" Column="9" TopLine="60"/>
+      </Position27>
+      <Position28>
+        <Filename Value="FrameCfgSynEdit.pas"/>
+      </Position28>
+      <Position29>
+        <Filename Value="FrameCfgSyntax.pas"/>
+        <Caret Line="351" Column="28" TopLine="303"/>
+      </Position29>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
-      <Modes Count="0" ActiveMode="default"/>
+      <Modes ActiveMode="default"/>
     </RunParams>
   </ProjectSession>
   <Debugging>
-    <BreakPoints Count="1">
-      <Item1>
+    <BreakPoints>
+      <Item>
         <Kind Value="bpkSource"/>
         <WatchScope Value="wpsLocal"/>
         <WatchKind Value="wpkWrite"/>
         <Source Value="FormElemProperty.pas"/>
         <Line Value="71"/>
-      </Item1>
+      </Item>
     </BreakPoints>
   </Debugging>
 </CONFIG>

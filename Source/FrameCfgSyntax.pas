@@ -11,7 +11,7 @@ interface
 uses
   Classes, SysUtils, FileUtil, LazUTF8, LazFileUtils, Forms, Controls, StdCtrls,
   LCLProc, Graphics, MisUtils, fgl, Types, LCLIntf, Dialogs, SynFacilBasic,
-  strutils;
+  strutils, Globales;
 type
 
   { TSynParam }
@@ -348,6 +348,7 @@ procedure TfraCfgSyntax.SetLanguage;
 begin
   //curLang := idLang;
   //
+  {$I ..\language\tra_CfgSyntax.pas}
 end;
 procedure TfraCfgSyntax.chkAutoCompChange(Sender: TObject);
 begin
