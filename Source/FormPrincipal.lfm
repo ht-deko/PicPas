@@ -1,11 +1,11 @@
 object frmPrincipal: TfrmPrincipal
-  Left = 560
-  Height = 632
-  Top = 275
+  Left = 188
+  Height = 537
+  Top = 348
   Width = 933
   AllowDropFiles = True
   Caption = 'frmPrincipal'
-  ClientHeight = 612
+  ClientHeight = 517
   ClientWidth = 933
   KeyPreview = True
   Menu = MainMenu1
@@ -21,7 +21,7 @@ object frmPrincipal: TfrmPrincipal
   object StatusBar1: TStatusBar
     Left = 0
     Height = 24
-    Top = 588
+    Top = 493
     Width = 933
     Panels = <    
       item
@@ -687,7 +687,7 @@ object frmPrincipal: TfrmPrincipal
   object panMessages: TPanel
     Left = 0
     Height = 82
-    Top = 506
+    Top = 411
     Width = 933
     Align = alBottom
     TabOrder = 4
@@ -696,7 +696,7 @@ object frmPrincipal: TfrmPrincipal
     Cursor = crVSplit
     Left = 0
     Height = 6
-    Top = 500
+    Top = 405
     Width = 933
     Align = alBottom
     ResizeAnchor = akBottom
@@ -1187,7 +1187,7 @@ object frmPrincipal: TfrmPrincipal
       Caption = 'Find...'
       ImageIndex = 15
       OnExecute = acSearFindExecute
-      ShortCut = 16450
+      ShortCut = 16454
     end
     object acSearFindNxt: TAction
       Category = 'Sear'
@@ -2753,11 +2753,13 @@ object frmPrincipal: TfrmPrincipal
     Top = 88
   end
   object FindDialog1: TFindDialog
+    OnShow = FindDialog1Show
     OnFind = FindDialog1Find
     Left = 216
     Top = 328
   end
   object ReplaceDialog1: TReplaceDialog
+    OnShow = ReplaceDialog1Show
     Options = [frDown, frReplace, frReplaceAll, frHidePromptOnReplace]
     OnReplace = ReplaceDialog1Replace
     Left = 328

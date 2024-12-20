@@ -16,6 +16,9 @@ uses
   PicPasProject, FrameEditView, FrameMessagesWin, XpresElementsPIC, CodeTools,
   FrameCfgExtTool, FormDebugger, FormRAMExplorer;
 type
+  TFindDialog = class(Dialogs.TFindDialog);
+  TReplaceDialog = class(Dialogs.TReplaceDialog);
+
   { TfrmPrincipal }
   TfrmPrincipal = class(TForm)
   published
@@ -205,6 +208,7 @@ type
     procedure acViewToolbarExecute(Sender: TObject);
     procedure acViewMsgPanExecute(Sender: TObject);
     procedure FindDialog1Find(Sender: TObject);
+    procedure FindDialog1Show(Sender: TObject);
     procedure fraEdit_ChangeEditorState(ed: TSynEditor);
     procedure DoSelectSample(Sender: TObject);
     procedure editChangeFileInform;
@@ -216,6 +220,7 @@ type
     procedure FormCreate(Sender: TObject);
     procedure FormDestroy(Sender: TObject);
     procedure ReplaceDialog1Replace(Sender: TObject);
+    procedure ReplaceDialog1Show(Sender: TObject);
     procedure Timer1Timer(Sender: TObject);
     procedure butSelCompilerClick(Sender: TObject);
   private
@@ -802,6 +807,94 @@ begin
   if encon = 0 then
      MsgBox(MSG_NOFOUND_, [buscado]);
 end;
+
+procedure TfrmPrincipal.FindDialog1Show(Sender: TObject);
+const
+  LBL_01 = $01;
+  BTN_01 = $11; BTN_02 = $12;
+  CHB_01 = $21; CHB_02 = $22; CHB_03 = $23;
+  RGP_01 = $31;
+var
+  Form: TForm;
+  i: Integer;
+  FORM_CAPTION,
+  LBL_01_CAPTION,
+  BTN_01_CAPTION, BTN_02_CAPTION,
+  CHB_01_CAPTION, CHB_02_CAPTION, CHB_03_CAPTION,
+  RGP_01_CAPTION, RGP_01_ITEM0, RGP_01_ITEM1: string;
+begin
+  Form := (Sender as TFindDialog).FFindForm;
+
+  if Form.Tag <> 65535 then
+  begin
+    Form.Tag := 65535;
+    for i:=0 to Form.ComponentCount-1 do
+    begin
+      if (Form.Components[i] is TLabel) then
+      begin
+        with (Form.Components[i] as TLabel) do
+        begin
+          if Caption = 'Text'   then Tag := LBL_01;
+        end;
+      end
+      else if (Form.Components[i] is TButton) then
+      begin
+        with (Form.Components[i] as TButton) do
+        begin
+          if Caption = 'Find'   then Tag := BTN_01;
+          if Caption = 'Cancel' then Tag := BTN_02;
+        end;
+      end
+      else if (Form.Components[i] is TCheckBox) then
+      begin
+        with (Form.Components[i] as TCheckBox) do
+        begin
+          if Caption = 'Whole words only'   then Tag := CHB_01;
+          if Caption = 'Case sensitive'     then Tag := CHB_02;
+          if Caption = 'Search entire file' then Tag := CHB_03;
+        end;
+      end
+      else if (Form.Components[i] is TRadioGroup) then
+      begin
+        with (Form.Components[i] as TRadioGroup) do
+        begin
+          if Caption = 'Direction' then Tag := RGP_01;
+        end;
+      end;
+    end;
+  end;
+
+  {$I ..\language\tra_finddialog.pas}
+
+  Form.Caption := FORM_CAPTION;
+  for i:=0 to Form.ComponentCount-1 do
+  begin
+    case Form.Components[i].Tag of
+      LBL_01:
+        (Form.Components[i] as TLabel).Caption := LBL_01_CAPTION;
+      BTN_01:
+        (Form.Components[i] as TButton).Caption := BTN_01_CAPTION;
+      BTN_02:
+        (Form.Components[i] as TButton).Caption := BTN_02_CAPTION;
+      CHB_01:
+        (Form.Components[i] as TCheckBox).Caption := CHB_01_CAPTION;
+      CHB_02:
+        (Form.Components[i] as TCheckBox).Caption := CHB_02_CAPTION;
+      CHB_03:
+        (Form.Components[i] as TCheckBox).Caption := CHB_03_CAPTION;
+      RGP_01:
+        begin
+          with (Form.Components[i] as TRadioGroup) do
+          begin
+            Caption := RGP_01_CAPTION;
+            Items[0] := RGP_01_ITEM0;
+            Items[1] := RGP_01_ITEM1;
+          end;
+        end;
+    end;
+  end;
+end;
+
 procedure TfrmPrincipal.ReplaceDialog1Replace(Sender: TObject);
 var
   encon, r : integer;
@@ -839,6 +932,103 @@ begin
   end;
   MsgBox(MSG_NOFOUND_, [buscado]);
 end;
+
+procedure TfrmPrincipal.ReplaceDialog1Show(Sender: TObject);
+const
+  LBL_01 = $01; LBL_02 = $02;
+  BTN_01 = $11; BTN_02 = $12; BTN_03 = $13; BTN_04 = $14;
+  CHB_01 = $21; CHB_02 = $22; CHB_03 = $23;
+  RGP_01 = $31;
+var
+  Form: TForm;
+  i: Integer;
+  FORM_CAPTION,
+  LBL_01_CAPTION, LBL_02_CAPTION,
+  BTN_01_CAPTION, BTN_02_CAPTION, BTN_03_CAPTION, BTN_04_CAPTION,
+  CHB_01_CAPTION, CHB_02_CAPTION, CHB_03_CAPTION,
+  RGP_01_CAPTION, RGP_01_ITEM0, RGP_01_ITEM1: string;
+begin
+  Form := (Sender as TReplaceDialog).FFindForm;
+
+  if Form.Tag <> 65535 then
+  begin
+    Form.Tag := 65535;
+    for i:=0 to Form.ComponentCount-1 do
+    begin
+      if (Form.Components[i] is TLabel) then
+      begin
+        with (Form.Components[i] as TLabel) do
+        begin
+          if Caption = 'Text'    then Tag := LBL_01;
+          if Caption = 'Replace' then Tag := LBL_02;
+        end;
+      end
+      else if (Form.Components[i] is TButton) then
+      begin
+        with (Form.Components[i] as TButton) do
+        begin
+          if Caption = 'Find more'   then Tag := BTN_01;
+          if Caption = 'Replace'     then Tag := BTN_02;
+          if Caption = 'Replace all' then Tag := BTN_03;
+          if Caption = 'Cancel'      then Tag := BTN_04;
+        end;
+      end
+      else if (Form.Components[i] is TCheckBox) then
+      begin
+        with (Form.Components[i] as TCheckBox) do
+        begin
+          if Caption = 'Whole words only'   then Tag := CHB_01;
+          if Caption = 'Case sensitive'     then Tag := CHB_02;
+          if Caption = 'Search entire file' then Tag := CHB_03;
+        end;
+      end
+      else if (Form.Components[i] is TRadioGroup) then
+      begin
+        with (Form.Components[i] as TRadioGroup) do
+        begin
+          if Caption = 'Direction' then Tag := RGP_01;
+        end;
+      end;
+    end;
+  end;
+
+  {$I ..\language\tra_replacedialog.pas}
+
+  Form.Caption := FORM_CAPTION;
+  for i:=0 to Form.ComponentCount-1 do
+  begin
+    case Form.Components[i].Tag of
+      LBL_01:
+        (Form.Components[i] as TLabel).Caption := LBL_01_CAPTION;
+      LBL_02:
+        (Form.Components[i] as TLabel).Caption := LBL_02_CAPTION;
+      BTN_01:
+        (Form.Components[i] as TButton).Caption := BTN_01_CAPTION;
+      BTN_02:
+        (Form.Components[i] as TButton).Caption := BTN_02_CAPTION;
+      BTN_03:
+        (Form.Components[i] as TButton).Caption := BTN_03_CAPTION;
+      BTN_04:
+        (Form.Components[i] as TButton).Caption := BTN_04_CAPTION;
+      CHB_01:
+        (Form.Components[i] as TCheckBox).Caption := CHB_01_CAPTION;
+      CHB_02:
+        (Form.Components[i] as TCheckBox).Caption := CHB_02_CAPTION;
+      CHB_03:
+        (Form.Components[i] as TCheckBox).Caption := CHB_03_CAPTION;
+      RGP_01:
+        begin
+          with (Form.Components[i] as TRadioGroup) do
+          begin
+            Caption := RGP_01_CAPTION;
+            Items[0] := RGP_01_ITEM0;
+            Items[1] := RGP_01_ITEM1;
+          end;
+        end;
+    end;
+  end;
+end;
+
 procedure TfrmPrincipal.CompileFile(filName: string);
 begin
   fraMessages.InitCompilation(Compiler, true);  //Limpia mensajes

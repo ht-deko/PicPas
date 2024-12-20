@@ -1,4 +1,16 @@
-﻿
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+
 #: CfgSynEdit.Label6.Caption
 msgctxt "CfgSynEdit.Label6.Caption"
 msgid "&Font:"
@@ -277,7 +289,7 @@ msgstr "おバカ"
 #: FormConfig.grpOptimLev.Items[1]
 msgctxt "FormConfig.grpOptimLev.Items[1]"
 msgid "Smart"
-msgstr "賢い！"
+msgstr "賢い"
 
 #: FormConfig.chkOptBnkAftIF.Caption
 msgctxt "FormConfig.chkOptBnkAftIF.Caption"
@@ -319,7 +331,7 @@ msgctxt "FormPrincipal.mnTools.Caption"
 msgid "&Tools"
 msgstr "ツール(&T)"
 
-#: FormPrincipal.acArcNewProj.Caption FormPrincipal.acArcNewProj.Caption
+#: FormPrincipal.acArcNewProj.Caption
 msgctxt "FormPrincipal.acArcNewProj.Caption"
 msgid "New &Project"
 msgstr "新規プロジェクト(&P)"
@@ -367,7 +379,7 @@ msgstr "名前を付けて保存(&V)..."
 #: FormPrincipal.acArcSaveAs.Hint
 msgctxt "FormPrincipal.acArcSaveAs.Hint"
 msgid "Save file as..."
-msgstr "名前を付けて保存"
+msgstr "名前を付けて保存..."
 
 #: FormPrincipal.acArcCloseFile.Caption
 msgctxt "FormPrincipal.acArcCloseFile.Caption"
@@ -707,7 +719,7 @@ msgstr "実装されていません: \"%s\""
 #: Parser.ER_IDEN_EXPECT
 msgctxt "Parser.ER_IDEN_EXPECT"
 msgid "Identifier expected."
-msgstr "期待される識別子"
+msgstr "期待される識別子。"
 
 #: Parser.ER_DUPLIC_IDEN
 msgctxt "Parser.ER_DUPLIC_IDEN"
@@ -717,17 +729,17 @@ msgstr "重複した識別子: \"%s\""
 #: Parser.ER_INVAL_FLOAT
 msgctxt "Parser.ER_INVAL_FLOAT"
 msgid "Unvalid float number."
-msgstr "無効な浮動小数点数"
+msgstr "無効な浮動小数点数。"
 
 #: Parser.ER_ERR_IN_NUMB
 msgctxt "Parser.ER_ERR_IN_NUMB"
 msgid "Error in number."
-msgstr "数値の誤り"
+msgstr "数値の誤り。"
 
 #: Parser.ER_NOTYPDEFNUM
 msgctxt "Parser.ER_NOTYPDEFNUM"
 msgid "No type defined to accommodate this number."
-msgstr "この数値に対応する型は定義されていません"
+msgstr "この数値に対応する型は定義されていません。"
 
 #: Parser.ER_UNDEF_TYPE_
 msgctxt "Parser.ER_UNDEF_TYPE_"
@@ -737,22 +749,22 @@ msgstr "未定義の型 \"%s\""
 #: Parser.ER_INV_MEMADDR
 msgctxt "Parser.ER_INV_MEMADDR"
 msgid "Invalid memory address."
-msgstr "無効なメモリアドレスです"
+msgstr "無効なメモリアドレスです。"
 
 #: Parser.ER_BIT_VAR_REF
 msgctxt "Parser.ER_BIT_VAR_REF"
 msgid "A bit variable reference expected."
-msgstr "期待されるビット変数の参照"
+msgstr "期待されるビット変数の参照。"
 
 #: Parser.ER_INV_MAD_DEV
 msgctxt "Parser.ER_INV_MAD_DEV"
 msgid "Invalid memory address for this device."
-msgstr "このデバイスのメモリアドレスが無効です"
+msgstr "このデバイスのメモリアドレスが無効です。"
 
 #: Parser.ER_EXP_VAR_IDE
 msgctxt "Parser.ER_EXP_VAR_IDE"
 msgid "Identifier of variable expected."
-msgstr "期待される変数の識別子"
+msgstr "期待される変数の識別子。"
 
 #: Parser.ER_UNKNOWN_ID_
 msgctxt "Parser.ER_UNKNOWN_ID_"
@@ -762,62 +774,62 @@ msgstr "不明な識別子: %s"
 #: Parser.ER_IDE_CON_EXP
 msgctxt "Parser.ER_IDE_CON_EXP"
 msgid "Identifier of constant expected."
-msgstr "期待される定数の識別子"
+msgstr "期待される定数の識別子。"
 
 #: Parser.ER_NUM_ADD_EXP
 msgctxt "Parser.ER_NUM_ADD_EXP"
 msgid "Numeric address expected."
-msgstr "期待される数値アドレス"
+msgstr "期待される数値アドレス。"
 
 #: Parser.ER_IDE_TYP_EXP
 msgctxt "Parser.ER_IDE_TYP_EXP"
 msgid "Identifier of type expected."
-msgstr "期待される型の識別子"
+msgstr "期待される型の識別子。"
 
 #: Parser.ER_SEM_COM_EXP
 msgctxt "Parser.ER_SEM_COM_EXP"
 msgid "\":\" or \",\" expected."
-msgstr "\":\" または \",\" が期待されます"
+msgstr "\":\" または \",\" が期待されます。"
 
 #: Parser.ER_EQU_COM_EXP
 msgctxt "Parser.ER_EQU_COM_EXP"
 msgid "\"=\" or \",\" expected."
-msgstr "\"=\" または \",\" が期待されます"
+msgstr "\"=\" または \",\" が期待されます。"
 
 #: Parser.ER_END_EXPECTE
 msgctxt "Parser.ER_END_EXPECTE"
 msgid "\"end\" expected."
-msgstr "\"end\" が期待されます"
+msgstr "\"end\" が期待されます。"
 
 #: Parser.ER_EOF_END_EXP
 msgctxt "Parser.ER_EOF_END_EXP"
 msgid "Unexpected end of file. \"end\" expected."
-msgstr "期待されないファイルの末尾。 \"end\" が期待されます"
+msgstr "期待されないファイルの末尾。 \"end\" が期待されます。"
 
 #: Parser.ER_BOOL_EXPECT
 msgctxt "Parser.ER_BOOL_EXPECT"
 msgid "Boolean expression expected."
-msgstr "論理式が期待されます"
+msgstr "論理式が期待されます。"
 
 #: Parser.ER_UNKN_STRUCT
 msgctxt "Parser.ER_UNKN_STRUCT"
 msgid "Unknown structure."
-msgstr "不明な構造です"
+msgstr "不明な構造です。"
 
 #: Parser.ER_PROG_NAM_EX
 msgctxt "Parser.ER_PROG_NAM_EX"
 msgid "Program name expected."
-msgstr "プログラム名が期待されます"
+msgstr "プログラム名が期待されます。"
 
 #: Parser.ER_COMPIL_PROC
 msgctxt "Parser.ER_COMPIL_PROC"
 msgid "There is a compilation in progress."
-msgstr "現在コンパイル中です"
+msgstr "現在コンパイル中です。"
 
 #: Parser.ER_CON_EXP_EXP
 msgctxt "Parser.ER_CON_EXP_EXP"
 msgid "Constant expression expected."
-msgstr "定数式が期待されます"
+msgstr "定数式が期待されます。"
 
 #: Parser.ER_NOT_AFT_END
 msgctxt "Parser.ER_NOT_AFT_END"
@@ -827,32 +839,32 @@ msgstr "構文エラーです。\"END.\" の後には何も記述すべきでは
 #: Parser.ER_ELS_UNEXPEC
 msgctxt "Parser.ER_ELS_UNEXPEC"
 msgid "\"else\" unexpected."
-msgstr "予期せぬ \"else\" です"
+msgstr "予期せぬ \"else\" です。"
 
 #: Parser.ER_INST_NEV_EXE
 msgctxt "Parser.ER_INST_NEV_EXE"
 msgid "Instruction will never execute."
-msgstr "命令が実行される事はありません"
+msgstr "命令が実行される事はありません。"
 
 #: Parser.ER_ONLY_ONE_REG
 msgctxt "Parser.ER_ONLY_ONE_REG"
 msgid "Only one REGISTER parameter is allowed."
-msgstr "REGISTER パラメータは 1 つだけ許されます"
+msgstr "REGISTER パラメータは 1 つだけ許されます。"
 
 #: Parser.ER_VARIAB_EXPEC
 msgctxt "Parser.ER_VARIAB_EXPEC"
 msgid "Variable expected."
-msgstr "変数が期待されます"
+msgstr "変数が期待されます。"
 
 #: Parser.ER_ONL_BYT_WORD
 msgctxt "Parser.ER_ONL_BYT_WORD"
 msgid "Only BYTE or WORD index is allowed in FOR."
-msgstr "FOR 文では BYTE または WORD インデックスのみ使用できます"
+msgstr "FOR 文では BYTE または WORD インデックスのみ使用できます。"
 
 #: Parser.ER_ASIG_EXPECT
 msgctxt "Parser.ER_ASIG_EXPECT"
 msgid "\":=\" expected."
-msgstr "\":=\" が期待されます"
+msgstr "\":=\" が期待されます。"
 
 #: Parser.ER_FIL_NOFOUND
 msgctxt "Parser.ER_FIL_NOFOUND"
@@ -887,17 +899,17 @@ msgstr "使用 Flash = "
 #: ParserAsm.ER_EXPEC_COMMA
 msgctxt "ParserAsm.ER_EXPEC_COMMA"
 msgid "Expected \",\"."
-msgstr "\",\" が期待されます"
+msgstr "\",\" が期待されます。"
 
 #: ParserAsm.ER_EXP_ADR_VAR
 msgctxt "ParserAsm.ER_EXP_ADR_VAR"
 msgid "Expected address or variable name."
-msgstr "アドレスまたは変数名が期待されます"
+msgstr "アドレスまたは変数名が期待されます。"
 
 #: ParserAsm.ER_EXP_CON_VAL
 msgctxt "ParserAsm.ER_EXP_CON_VAL"
 msgid "Expected constant or value."
-msgstr "定数または値が期待されます"
+msgstr "定数または値が期待されます。"
 
 #: ParserAsm.ER_NOGETADD_VAR
 msgctxt "ParserAsm.ER_NOGETADD_VAR"
@@ -917,7 +929,7 @@ msgstr "無効な ASM オペコード: %s"
 #: ParserAsm.ER_EXPECT_W_F
 msgctxt "ParserAsm.ER_EXPECT_W_F"
 msgid "Expected \"w\" or \"f\"."
-msgstr "\"w\" または \"f\" が期待されます"
+msgstr "\"w\" または \"f\" が期待されます。"
 
 #: ParserAsm.ER_SYNTAX_ERR_
 msgctxt "ParserAsm.ER_SYNTAX_ERR_"
@@ -932,17 +944,17 @@ msgstr "重複したラベル: \"%s\""
 #: ParserAsm.ER_EXPE_NUMBIT
 msgctxt "ParserAsm.ER_EXPE_NUMBIT"
 msgid "Expected number of bit: 0..7."
-msgstr "ビット数は 0..7 が期待されます"
+msgstr "ビット数は 0..7 が期待されます。"
 
 #: ParserAsm.ER_EXPECT_ADDR
 msgctxt "ParserAsm.ER_EXPECT_ADDR"
 msgid "Expected address."
-msgstr "アドレスが期待されます"
+msgstr "アドレスが期待されます。"
 
 #: ParserAsm.ER_EXPECT_BYTE
 msgctxt "ParserAsm.ER_EXPECT_BYTE"
 msgid "Expected byte."
-msgstr "byte が期待されます"
+msgstr "byte が期待されます。"
 
 #: ParserAsm.ER_UNDEF_LABEL_
 msgctxt "ParserAsm.ER_UNDEF_LABEL_"
@@ -952,12 +964,12 @@ msgstr "未定義の ASM ラベル: %s"
 #: ParserAsm.WA_ADDR_TRUNC
 msgctxt "ParserAsm.WA_ADDR_TRUNC"
 msgid "Address truncated to fit instruction."
-msgstr "命令に合わせてアドレスが切り詰められました"
+msgstr "命令に合わせてアドレスが切り詰められました。"
 
 #: ParserDirec.ER_ERROR_DIREC
 msgctxt "ParserDirec.ER_ERROR_DIREC"
 msgid "Error in directive."
-msgstr "指令のエラー"
+msgstr "指令のエラー。"
 
 #: ParserDirec.ER_UNKNO_DEVIC
 msgctxt "ParserDirec.ER_UNKNO_DEVIC"
@@ -977,12 +989,12 @@ msgstr "不明な指令: %s"
 #: ParserDirec.ER_ERROR_FREQ
 msgctxt "ParserDirec.ER_ERROR_FREQ"
 msgid "Error in frequency."
-msgstr "周波数のエラー"
+msgstr "周波数のエラー。"
 
 #: ParserDirec.ER_IDENT_EXPEC
 msgctxt "ParserDirec.ER_IDENT_EXPEC"
 msgid "Identifier expected."
-msgstr "識別子が期待されます"
+msgstr "識別子が期待されます。"
 
 #: ParserDirec.ER_EXPEC_EQUAL
 msgctxt "ParserDirec.ER_EXPEC_EQUAL"
@@ -992,7 +1004,7 @@ msgstr "\"=\" が期待されます"
 #: ParserDirec.ER_SYNTAX_ERRO
 msgctxt "ParserDirec.ER_SYNTAX_ERRO"
 msgid "Syntax error."
-msgstr "構文エラー"
+msgstr "構文エラー。"
 
 #: ParserDirec.ER_SYNTAX_ERR_
 msgctxt "ParserDirec.ER_SYNTAX_ERR_"
@@ -1007,12 +1019,12 @@ msgstr "Expected \",\"."
 #: ProcAsm.ER_EXP_ADR_VAR
 msgctxt "ProcAsm.ER_EXP_ADR_VAR"
 msgid "Expected address or variable name."
-msgstr "期待されるアドレスまたは変数名"
+msgstr "期待されるアドレスまたは変数名。"
 
 #: ProcAsm.ER_EXP_CON_VAL
 msgctxt "ProcAsm.ER_EXP_CON_VAL"
 msgid "Expected constant or value."
-msgstr "期待される定数または値"
+msgstr "期待される定数または値。"
 
 #: ProcAsm.ER_NOGETADD_VAR
 msgctxt "ProcAsm.ER_NOGETADD_VAR"
@@ -1032,7 +1044,7 @@ msgstr "無効な ASM オペコード: %s"
 #: ProcAsm.ER_EXPECT_W_F
 msgctxt "ProcAsm.ER_EXPECT_W_F"
 msgid "Expected \"w\" or \"f\"."
-msgstr "\"w\" または \"f\" が期待されます"
+msgstr "\"w\" または \"f\" が期待されます。"
 
 #: ProcAsm.ER_SYNTAX_ERR_
 msgctxt "ProcAsm.ER_SYNTAX_ERR_"
@@ -1047,17 +1059,17 @@ msgstr "重複したラベル: \"%s\""
 #: ProcAsm.ER_EXPE_NUMBIT
 msgctxt "ProcAsm.ER_EXPE_NUMBIT"
 msgid "Expected number of bit: 0..7."
-msgstr "ビット数は 0..7 が期待されます"
+msgstr "ビット数は 0..7 が期待されます。"
 
 #: ProcAsm.ER_EXPECT_ADDR
 msgctxt "ProcAsm.ER_EXPECT_ADDR"
 msgid "Expected address."
-msgstr "アドレスが期待されます"
+msgstr "アドレスが期待されます。"
 
 #: ProcAsm.ER_EXPECT_BYTE
 msgctxt "ProcAsm.ER_EXPECT_BYTE"
 msgid "Expected byte."
-msgstr "byte が期待されます"
+msgstr "byte が期待されます。"
 
 #: ProcAsm.ER_UNDEF_LABEL_
 msgctxt "ProcAsm.ER_UNDEF_LABEL_"
@@ -1067,4 +1079,4 @@ msgstr "未定義の ASM ラベル: %s"
 #: ProcAsm.WA_ADDR_TRUNC
 msgctxt "ProcAsm.WA_ADDR_TRUNC"
 msgid "Address truncated to fit instruction."
-msgstr "命令に合わせてアドレスが切り詰められました"
+msgstr "命令に合わせてアドレスが切り詰められました。"

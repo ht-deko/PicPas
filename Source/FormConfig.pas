@@ -7,7 +7,7 @@ interface
 
 uses
   Classes, SysUtils, FileUtil, SynEdit, Forms, Controls, Graphics, Dialogs,
-  Buttons, StdCtrls, ExtCtrls, ComCtrls, ColorBox, LCLType, Spin,
+  Buttons, StdCtrls, ExtCtrls, ComCtrls, ColorBox, LCLType, LCLIntf, Spin,
   FrameCfgSynEdit, Globales, FrameCfgSyntax, FrameCfgExtTool, MiConfigXML,
   MiConfigBasic, MisUtils;
 type
@@ -346,10 +346,27 @@ begin
   RadioGroup2.Enabled := chkIncDecVar.Checked;
   chkExcUnused.Enabled := chkIncDecVar.Checked;
 end;
+function FontEnumCallBack(var ELogFont: TEnumLogFontEx; var Metric: TNewTextMetricEx;
+  FontType: Longint; Data:LParam):Longint; stdcall;
+var
+  s: String;
+  FontList: TStringList;
+begin
+  Result := 1;
+  s := ELogFont.elfLogFont.lfFaceName;
+  FontList := TStringList(LPARAM(Data));
+  if (s[1] <> '@') and
+     ((ELogFont.elfLogFont.lfPitchAndFamily and FIXED_PITCH) = FIXED_PITCH) and
+     (FontList.IndexOf(s) < 0) then
+    FontList.Add(s);
+end;
 procedure TConfig.Iniciar;
 //Inicia el formulario de configuración. Debe llamarse antes de usar el formulario y
 //después de haber cargado todos los frames.
 var
+  DC: HDC;
+  FontList: TStringList;
+  LogFont: TLogFont;
   s: TParElem;
 begin
   //Configuraciones de Entorno
@@ -387,13 +404,31 @@ begin
   //Configuraciones del Editor
   s:=cfgFile.Asoc_Int('TamLet', @TamLet, spFontSize, 10);
   s.categ := 1;
-  cmbFontName.Items.Clear;
+  {$IFDEF WINDOWS}
+  with LogFont do
+  begin
+    lfCharSet        := DEFAULT_CHARSET;
+    lfFaceName       := '';
+    lfPitchAndFamily := 0;
+  end;
+  DC := GetDC(0);
+  FontList := TStringList.Create;
+  try
+    EnumFontFamiliesEX(DC, @LogFont, @FontEnumCallBack, LPARAM(FontList), 0);
+    FontList.Sort;
+    cmbFontName.Items.Assign(FontList);
+  finally
+    FontList.Free;
+    ReleaseDC(0, DC);
+  end;
+  {$ELSE}
   cmbFontName.Items.Add('Courier New');
   cmbFontName.Items.Add('DejaVu Sans Mono');
   cmbFontName.Items.Add('Fixedsys');
   cmbFontName.Items.Add('Lucida Console');
   cmbFontName.Items.Add('Consolas');
   cmbFontName.Items.Add('Cambria');
+  {$ENDIF}
   s:=cfgFile.Asoc_Str('TipLet', @TipLet, cmbFontName, 'Courier New');
   s.categ := 1;
   s:=cfgFile.Asoc_Bol('VerBarDesV', @VerBarDesV, chkViewVScroll, true);

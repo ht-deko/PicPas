@@ -1,7 +1,7 @@
 object Config: TConfig
-  Left = 269
+  Left = 457
   Height = 380
-  Top = 426
+  Top = 301
   Width = 571
   BorderStyle = bsDialog
   Caption = 'Configuración'
@@ -58,10 +58,10 @@ object Config: TConfig
     Height = 330
     Top = 0
     Width = 403
-    ActivePage = tabCodeExp
+    ActivePage = tabEditor
     Align = alClient
     ShowTabs = False
-    TabIndex = 1
+    TabIndex = 3
     TabOrder = 1
     object tabEnviron: TTabSheet
       Caption = 'Enviroment'
@@ -382,7 +382,7 @@ object Config: TConfig
       object Label6: TLabel
         Left = 16
         Height = 15
-        Top = 24
+        Top = 22
         Width = 29
         Caption = 'Letra:'
         ParentColor = False
@@ -391,21 +391,23 @@ object Config: TConfig
         Left = 72
         Height = 23
         Top = 18
-        Width = 100
+        Width = 177
         ItemHeight = 15
         TabOrder = 0
         Text = 'cmbFontName'
       end
       object Label7: TLabel
-        Left = 211
+        Left = 248
         Height = 15
-        Top = 24
-        Width = 44
+        Top = 21
+        Width = 64
+        Alignment = taRightJustify
+        AutoSize = False
         Caption = 'Tamaño:'
         ParentColor = False
       end
       object spFontSize: TSpinEdit
-        Left = 297
+        Left = 322
         Height = 23
         Top = 18
         Width = 50

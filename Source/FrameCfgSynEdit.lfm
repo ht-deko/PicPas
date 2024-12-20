@@ -6,8 +6,8 @@ object fraCfgSynEdit: TfraCfgSynEdit
   ClientHeight = 323
   ClientWidth = 382
   TabOrder = 0
-  DesignLeft = 368
-  DesignTop = 336
+  DesignLeft = 376
+  DesignTop = 345
   object cbutLinAct: TColorButton
     Left = 264
     Height = 25
