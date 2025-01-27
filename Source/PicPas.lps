@@ -3,13 +3,14 @@
   <ProjectSession>
     <PathDelim Value="\"/>
     <Version Value="12"/>
+    <ManyBuildModesSelection Value="Release"/>
     <BuildModes Active="Release"/>
     <Units Count="80">
       <Unit0>
         <Filename Value="PicPas.lpr"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="16"/>
-        <CursorPos X="45" Y="17"/>
+        <CursorPos X="6" Y="17"/>
         <UsageCount Value="219"/>
         <Loaded Value="True"/>
       </Unit0>
@@ -21,7 +22,7 @@
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
         <TopLine Value="838"/>
-        <CursorPos X="37" Y="872"/>
+        <CursorPos X="14" Y="860"/>
         <ExtraEditorCount Value="1"/>
         <ExtraEditor1>
           <EditorIndex Value="-1"/>
@@ -61,7 +62,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <EditorIndex Value="8"/>
-        <CursorPos X="32" Y="10"/>
+        <CursorPos Y="10"/>
         <UsageCount Value="203"/>
         <Loaded Value="True"/>
       </Unit3>
@@ -70,7 +71,7 @@
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="9"/>
         <TopLine Value="2753"/>
-        <CursorPos X="24" Y="2765"/>
+        <CursorPos X="21" Y="2765"/>
         <ExtraEditorCount Value="1"/>
         <ExtraEditor1>
           <EditorIndex Value="-1"/>
@@ -126,7 +127,7 @@
         <ResourceBaseClass Value="Frame"/>
         <EditorIndex Value="6"/>
         <TopLine Value="2"/>
-        <CursorPos X="43" Y="19"/>
+        <CursorPos X="30" Y="19"/>
         <UsageCount Value="202"/>
         <Loaded Value="True"/>
       </Unit7>
@@ -135,7 +136,7 @@
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="35"/>
         <TopLine Value="50"/>
-        <CursorPos X="30" Y="73"/>
+        <CursorPos X="14" Y="73"/>
         <UsageCount Value="202"/>
         <Loaded Value="True"/>
       </Unit8>
@@ -144,7 +145,7 @@
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="50"/>
         <TopLine Value="73"/>
-        <CursorPos X="36" Y="92"/>
+        <CursorPos Y="92"/>
         <ExtraEditorCount Value="1"/>
         <ExtraEditor1>
           <EditorIndex Value="-1"/>
@@ -161,8 +162,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <EditorIndex Value="36"/>
-        <TopLine Value="356"/>
-        <CursorPos X="29" Y="361"/>
+        <CursorPos X="48" Y="15"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
       </Unit10>
@@ -182,7 +182,7 @@
         <ResourceBaseClass Value="Frame"/>
         <EditorIndex Value="38"/>
         <TopLine Value="1316"/>
-        <CursorPos X="46" Y="1328"/>
+        <CursorPos X="44" Y="1328"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
       </Unit12>
@@ -221,7 +221,7 @@
         <ResourceBaseClass Value="Frame"/>
         <EditorIndex Value="41"/>
         <TopLine Value="175"/>
-        <CursorPos X="65" Y="206"/>
+        <CursorPos X="50" Y="206"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
       </Unit15>
@@ -232,7 +232,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
         <EditorIndex Value="42"/>
-        <CursorPos X="62" Y="17"/>
+        <CursorPos X="16" Y="17"/>
         <UsageCount Value="210"/>
         <Loaded Value="True"/>
       </Unit16>
@@ -243,7 +243,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
         <EditorIndex Value="45"/>
-        <CursorPos X="56" Y="19"/>
+        <CursorPos X="34" Y="19"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -280,7 +280,7 @@
         <ResourceBaseClass Value="Frame"/>
         <EditorIndex Value="47"/>
         <TopLine Value="118"/>
-        <CursorPos X="92" Y="136"/>
+        <CursorPos X="56" Y="136"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
       </Unit21>
@@ -304,7 +304,7 @@
         <ResourceBaseClass Value="Frame"/>
         <EditorIndex Value="14"/>
         <TopLine Value="362"/>
-        <CursorPos X="35" Y="380"/>
+        <CursorPos X="26" Y="380"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
       </Unit23>
@@ -315,7 +315,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <EditorIndex Value="30"/>
-        <CursorPos X="62" Y="17"/>
+        <CursorPos X="20" Y="17"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
       </Unit24>
@@ -327,7 +327,7 @@
         <ResourceBaseClass Value="Frame"/>
         <EditorIndex Value="31"/>
         <TopLine Value="44"/>
-        <CursorPos X="55" Y="103"/>
+        <CursorPos X="46" Y="103"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
       </Unit25>
@@ -339,7 +339,7 @@
         <ResourceBaseClass Value="Frame"/>
         <EditorIndex Value="32"/>
         <TopLine Value="73"/>
-        <CursorPos X="35" Y="92"/>
+        <CursorPos X="5" Y="92"/>
         <UsageCount Value="201"/>
         <Loaded Value="True"/>
       </Unit26>
@@ -351,7 +351,7 @@
         <ResourceBaseClass Value="Frame"/>
         <EditorIndex Value="33"/>
         <TopLine Value="38"/>
-        <CursorPos X="58" Y="49"/>
+        <CursorPos X="47" Y="49"/>
         <UsageCount Value="211"/>
         <Loaded Value="True"/>
       </Unit27>
@@ -363,7 +363,7 @@
         <ResourceBaseClass Value="Frame"/>
         <EditorIndex Value="11"/>
         <TopLine Value="205"/>
-        <CursorPos X="28" Y="220"/>
+        <CursorPos X="27" Y="220"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
       </Unit28>
@@ -428,7 +428,7 @@
         <ResourceBaseClass Value="Frame"/>
         <EditorIndex Value="12"/>
         <TopLine Value="309"/>
-        <CursorPos X="25" Y="326"/>
+        <CursorPos X="6" Y="326"/>
         <UsageCount Value="207"/>
         <Loaded Value="True"/>
       </Unit35>
@@ -581,7 +581,7 @@
         <Filename Value="..\language\tra_FormConfig.pas"/>
         <EditorIndex Value="18"/>
         <TopLine Value="130"/>
-        <CursorPos X="107" Y="162"/>
+        <CursorPos X="77" Y="162"/>
         <UsageCount Value="64"/>
         <Loaded Value="True"/>
       </Unit54>
@@ -597,7 +597,7 @@
         <UnitName Value="SynEdit"/>
         <EditorIndex Value="48"/>
         <TopLine Value="6699"/>
-        <CursorPos X="45" Y="6727"/>
+        <CursorPos X="7" Y="6727"/>
         <UsageCount Value="63"/>
         <Loaded Value="True"/>
       </Unit56>
@@ -627,7 +627,7 @@
       <Unit60>
         <Filename Value="..\language\tra_GenCodBas.pas"/>
         <EditorIndex Value="20"/>
-        <CursorPos X="74" Y="7"/>
+        <CursorPos X="60" Y="7"/>
         <UsageCount Value="63"/>
         <Loaded Value="True"/>
       </Unit60>
@@ -641,35 +641,35 @@
       <Unit62>
         <Filename Value="..\language\tra_ParserAsm.pas"/>
         <EditorIndex Value="22"/>
-        <CursorPos X="172" Y="10"/>
+        <CursorPos X="116" Y="10"/>
         <UsageCount Value="63"/>
         <Loaded Value="True"/>
       </Unit62>
       <Unit63>
         <Filename Value="..\language\tra_Parser.pas"/>
         <EditorIndex Value="23"/>
-        <CursorPos X="125" Y="2"/>
+        <CursorPos X="18" Y="2"/>
         <UsageCount Value="62"/>
         <Loaded Value="True"/>
       </Unit63>
       <Unit64>
         <Filename Value="..\language\tra_FrameArcExplor.pas"/>
         <EditorIndex Value="24"/>
-        <CursorPos X="107" Y="7"/>
+        <CursorPos X="65" Y="7"/>
         <UsageCount Value="62"/>
         <Loaded Value="True"/>
       </Unit64>
       <Unit65>
         <Filename Value="..\language\tra_FrameSyntaxTree.pas"/>
         <EditorIndex Value="25"/>
-        <CursorPos X="135" Y="9"/>
+        <CursorPos X="56" Y="9"/>
         <UsageCount Value="62"/>
         <Loaded Value="True"/>
       </Unit65>
       <Unit66>
         <Filename Value="..\language\tra_FrameEditView.pas"/>
         <EditorIndex Value="26"/>
-        <CursorPos X="140" Y="5"/>
+        <CursorPos X="79" Y="5"/>
         <UsageCount Value="62"/>
         <Loaded Value="True"/>
       </Unit66>
@@ -705,7 +705,7 @@
       <Unit71>
         <Filename Value="..\language\tra_CfgSyntax.pas"/>
         <EditorIndex Value="43"/>
-        <CursorPos X="21" Y="10"/>
+        <CursorPos Y="10"/>
         <UsageCount Value="48"/>
         <Loaded Value="True"/>
       </Unit71>
@@ -721,7 +721,7 @@
         <UnitName Value="Dialogs"/>
         <EditorIndex Value="3"/>
         <TopLine Value="648"/>
-        <CursorPos X="48" Y="670"/>
+        <CursorPos X="41" Y="670"/>
         <UsageCount Value="32"/>
         <Loaded Value="True"/>
       </Unit73>
@@ -760,8 +760,8 @@
       <Unit78>
         <Filename Value="..\language\tra_finddialog.pas"/>
         <EditorIndex Value="2"/>
-        <CursorPos X="13" Y="11"/>
-        <UsageCount Value="10"/>
+        <CursorPos Y="11"/>
+        <UsageCount Value="11"/>
         <Loaded Value="True"/>
       </Unit78>
       <Unit79>
@@ -790,105 +790,105 @@
       </Position4>
       <Position5>
         <Filename Value="FormPrincipal.pas"/>
-        <Caret Line="811" Column="40" TopLine="837"/>
+        <Caret Line="934" Column="43" TopLine="912"/>
       </Position5>
       <Position6>
         <Filename Value="FormPrincipal.pas"/>
-        <Caret Line="934" Column="43" TopLine="912"/>
       </Position6>
       <Position7>
         <Filename Value="FormPrincipal.pas"/>
+        <Caret Line="211" Column="30" TopLine="185"/>
       </Position7>
       <Position8>
         <Filename Value="FormPrincipal.pas"/>
-        <Caret Line="211" Column="30" TopLine="185"/>
+        <Caret Line="223" Column="33" TopLine="197"/>
       </Position8>
       <Position9>
         <Filename Value="FormPrincipal.pas"/>
-        <Caret Line="223" Column="33" TopLine="197"/>
+        <Caret Line="817" TopLine="801"/>
       </Position9>
       <Position10>
         <Filename Value="FormPrincipal.pas"/>
-        <Caret Line="817" TopLine="801"/>
+        <Caret Line="811" Column="40" TopLine="801"/>
       </Position10>
       <Position11>
         <Filename Value="FormPrincipal.pas"/>
-        <Caret Line="811" Column="40" TopLine="801"/>
+        <Caret Line="918" Column="36" TopLine="907"/>
       </Position11>
       <Position12>
         <Filename Value="FormPrincipal.pas"/>
-        <Caret Line="918" Column="36" TopLine="907"/>
+        <Caret Line="817" TopLine="794"/>
       </Position12>
       <Position13>
         <Filename Value="FormPrincipal.pas"/>
-        <Caret Line="817" TopLine="794"/>
+        <Caret Line="940" TopLine="933"/>
       </Position13>
       <Position14>
         <Filename Value="FormPrincipal.pas"/>
-        <Caret Line="940" TopLine="933"/>
+        <Caret Line="827" Column="18" TopLine="813"/>
       </Position14>
       <Position15>
         <Filename Value="FormPrincipal.pas"/>
-        <Caret Line="827" Column="18" TopLine="813"/>
+        <Caret Line="949" Column="19" TopLine="929"/>
       </Position15>
       <Position16>
         <Filename Value="FormPrincipal.pas"/>
-        <Caret Line="949" Column="19" TopLine="929"/>
+        <Caret Line="876" Column="20" TopLine="863"/>
       </Position16>
       <Position17>
         <Filename Value="FormPrincipal.pas"/>
-        <Caret Line="876" Column="20" TopLine="863"/>
+        <Caret Line="976" Column="27" TopLine="956"/>
       </Position17>
       <Position18>
         <Filename Value="FormPrincipal.pas"/>
-        <Caret Line="976" Column="27" TopLine="956"/>
+        <Caret Line="861" TopLine="834"/>
       </Position18>
       <Position19>
         <Filename Value="FormPrincipal.pas"/>
-        <Caret Line="861" TopLine="834"/>
+        <Caret Line="943" TopLine="924"/>
       </Position19>
       <Position20>
         <Filename Value="FormPrincipal.pas"/>
-        <Caret Line="977" Column="33" TopLine="1011"/>
+        <Caret Line="825" TopLine="794"/>
       </Position20>
       <Position21>
         <Filename Value="FormPrincipal.pas"/>
-        <Caret Line="943" TopLine="924"/>
+        <Caret Line="942" Column="30" TopLine="934"/>
       </Position21>
       <Position22>
         <Filename Value="FormPrincipal.pas"/>
-        <Caret Line="825" TopLine="794"/>
+        <Caret Line="858" Column="48" TopLine="846"/>
       </Position22>
       <Position23>
         <Filename Value="FormPrincipal.pas"/>
-        <Caret Line="942" Column="30" TopLine="934"/>
+        <Caret Line="988" Column="45" TopLine="965"/>
       </Position23>
       <Position24>
         <Filename Value="FormPrincipal.pas"/>
-        <Caret Line="858" Column="48" TopLine="846"/>
+        <Caret Line="953" Column="3" TopLine="935"/>
       </Position24>
       <Position25>
-        <Filename Value="FormPrincipal.pas"/>
-        <Caret Line="988" Column="45" TopLine="965"/>
-      </Position25>
-      <Position26>
-        <Filename Value="FormPrincipal.pas"/>
-        <Caret Line="874" Column="64" TopLine="878"/>
-      </Position26>
-      <Position27>
-        <Filename Value="FormPrincipal.pas"/>
-        <Caret Line="953" Column="3" TopLine="935"/>
-      </Position27>
-      <Position28>
         <Filename Value="..\language\tra_finddialog.pas"/>
         <Caret Line="12" Column="48"/>
-      </Position28>
-      <Position29>
+      </Position25>
+      <Position26>
         <Filename Value="..\language\tra_finddialog.pas"/>
         <Caret Line="11"/>
+      </Position26>
+      <Position27>
+        <Filename Value="..\language\tra_replacedialog.pas"/>
+      </Position27>
+      <Position28>
+        <Filename Value="FormPrincipal.pas"/>
+        <Caret Line="861" Column="41" TopLine="838"/>
+      </Position28>
+      <Position29>
+        <Filename Value="FormConfig.pas"/>
+        <Caret Line="258" Column="59" TopLine="242"/>
       </Position29>
       <Position30>
-        <Filename Value="..\language\tra_replacedialog.pas"/>
+        <Filename Value="FormConfig.pas"/>
+        <Caret Line="5" Column="48"/>
       </Position30>
     </JumpHistory>
     <RunParams>

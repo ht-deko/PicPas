@@ -1,11 +1,11 @@
 object frmPrincipal: TfrmPrincipal
-  Left = 188
+  Left = 476
   Height = 537
-  Top = 348
+  Top = 215
   Width = 933
   AllowDropFiles = True
   Caption = 'frmPrincipal'
-  ClientHeight = 517
+  ClientHeight = 537
   ClientWidth = 933
   KeyPreview = True
   Menu = MainMenu1
@@ -17,11 +17,11 @@ object frmPrincipal: TfrmPrincipal
   OnKeyDown = FormKeyDown
   OnShow = FormShow
   Position = poScreenCenter
-  LCLVersion = '2.2.6.0'
+  LCLVersion = '3.8.0.0'
   object StatusBar1: TStatusBar
     Left = 0
     Height = 24
-    Top = 493
+    Top = 513
     Width = 933
     Panels = <    
       item
@@ -687,7 +687,7 @@ object frmPrincipal: TfrmPrincipal
   object panMessages: TPanel
     Left = 0
     Height = 82
-    Top = 411
+    Top = 431
     Width = 933
     Align = alBottom
     TabOrder = 4
@@ -696,7 +696,7 @@ object frmPrincipal: TfrmPrincipal
     Cursor = crVSplit
     Left = 0
     Height = 6
-    Top = 405
+    Top = 425
     Width = 933
     Align = alBottom
     ResizeAnchor = akBottom
@@ -1424,9 +1424,11 @@ object frmPrincipal: TfrmPrincipal
       end
       object MenuItem4: TMenuItem
         Action = acArcOpen
+        ShortCut = 16463
       end
       object MenuItem5: TMenuItem
         Action = acArcSave
+        ShortCut = 16467
       end
       object MenuItem6: TMenuItem
         Action = acArcSaveAs
